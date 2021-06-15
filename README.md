@@ -62,7 +62,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
 });
 ```
 
-#### Interest more textpro examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/e473cce16294794d967d10362b9a848b69387ace/textpro-examples/textpro-ex.js)
+#### Interest More Textpro Examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/e473cce16294794d967d10362b9a848b69387ace/textpro-examples/textpro-ex.js)
 
 ##
 
@@ -71,7 +71,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
 ```js
 const thiccysapi = require('ephoto-360'); // Import NPM Package
 
-thiccysapi.photooxy("<textpro_html>",
+thiccysapi.photooxy("<photooxy_html>",
     // "Message One" (One Message)
     // ["Message One"], ["Message Two"] (Two Message)
     ).then(async (data) => { 
@@ -115,5 +115,22 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
 });
 ```
 
-#### Interest more photooxy examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/2ca3c79fb6330f9dea2b1401f63a3e409e197f34/photooxy-examples/photooxy-ex.js)
+#### Interest More Photooxy Examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/2ca3c79fb6330f9dea2b1401f63a3e409e197f34/photooxy-examples/photooxy-ex.js)
 
+##
+
+### [ Warranty ] 
+
+##### This API not affiliated with any organization or foundation.
+##### All code is available as open source.
+##### Development belongs to Phaticusthiccy.
+##### Every user has unlimited rights.
+##### Do not use for illegal situations.
+
+##
+
+### [ Contribution ]
+
+##### Any additions that do not impair functionality are accepted.
+##### A Any suggestions or additions that go against the code of ethics and GitHub policies will not be accepted.
+##### All suggestions for personalization purposes will not be accepted.
