@@ -81,7 +81,7 @@ thiccysapi.photooxy("<textpro_html>",
           console.log(err)
       } 
 });
-```js
+```
 
 ### Photooxy 2 ( Real Usage With One Message )
 
@@ -97,7 +97,7 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/shadow-text-effe
           console.log(err)
       } 
 });
-```js
+```
 
 ### Photooxy 3 ( Real Usage With Two Message )
 
@@ -113,7 +113,7 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
           console.log(err)
       } 
 });
-```js
+```
 
 #### Interest more photooxy examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/2ca3c79fb6330f9dea2b1401f63a3e409e197f34/photooxy-examples/photooxy-ex.js)
 
