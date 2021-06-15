@@ -15,6 +15,17 @@
   },
   "author": "",
   "license": "GNU",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie": "^0.4.1",
+    "form-data": "^4.0.0",
+    "instatouch": "^2.3.3",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1",
+    "paste.gg": "^1.0.3"
+  },
+  "devDependencies": {},
   "bugs": {
     "url": "https://github.com/phaticusthiccy/EPhoto-360/issues"
   },
