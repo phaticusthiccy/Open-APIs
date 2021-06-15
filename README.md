@@ -120,17 +120,18 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
 ##
 
 ### [ Warranty - Lifetime ] 🎦
-
-##### This API not affiliated with any organization or foundation.
-##### All code is available as open source.
-##### Development belongs to Phaticusthiccy.
-##### Every user has unlimited rights.
-##### Do not use for illegal situations.
-
+```bash
+This API not affiliated with any organization or foundation.
+All code is available as open source.
+Development belongs to Phaticusthiccy.
+Every user has unlimited rights.
+Do not use for illegal situations.
+```
 ##
 
 ### [ Contribution ] 💻
-
-##### Any additions that do not impair functionality are accepted.
-##### A Any suggestions or additions that go against the code of ethics and GitHub policies will not be accepted.
-##### All suggestions for personalization purposes will not be accepted.
+```json
+Any additions that do not impair functionality are accepted.
+A Any suggestions or additions that go against the code of ethics and GitHub policies will not be accepted.
+All suggestions for personalization purposes will not be accepted.
+```
