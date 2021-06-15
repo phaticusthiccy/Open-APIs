@@ -39,7 +39,7 @@ thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-onlin
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -55,7 +55,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
