@@ -6,7 +6,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -15,7 +15,7 @@ thiccysapi.textpro("https://textpro.me/create-cool-wall-graffiti-text-effect-onl
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -24,7 +24,7 @@ thiccysapi.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html",
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -33,7 +33,7 @@ thiccysapi.textpro("https://textpro.me/create-logo-style-marvel-studios-ver-meta
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -42,7 +42,7 @@ thiccysapi.textpro("https://textpro.me/create-logo-style-marvel-studios-online-9
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -51,7 +51,7 @@ thiccysapi.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-
     ["Developer"], ["Phaticusthiccy"]
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -60,7 +60,7 @@ thiccysapi.textpro("https://textpro.me/thunder-text-effect-online-881.html",
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -69,7 +69,7 @@ thiccysapi.textpro("https://textpro.me/advanced-glow-text-effect-873.html",
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -78,7 +78,7 @@ thiccysapi.textpro("https://textpro.me/create-a-futuristic-technology-neon-light
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -87,7 +87,7 @@ thiccysapi.textpro("https://textpro.me/bokeh-text-effect-876.html",
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -96,7 +96,7 @@ thiccysapi.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
@@ -105,7 +105,7 @@ thiccysapi.textpro("https://textpro.me/neon-light-text-effect-online-882.html",
     "Phaticusthiccy"
     ).then(async (data) => { 
       try { 
-          console.log(dat)
+          console.log(data)
       } catch(err) { 
           console.log(err)
       } 
