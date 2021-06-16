@@ -1,4 +1,4 @@
-const thiccysapi = require('ephoto-360'); // Import NPM Package
+const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
 
 // Some Examples
 
