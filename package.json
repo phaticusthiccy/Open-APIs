@@ -1,7 +1,7 @@
 {
-  "name": "ephoto-360",
-  "version": "1.1.2",
-  "description": "Unofficial API Wrapper for EPhoto 360",
+  "name": "textmaker-thiccy",
+  "version": "1.2.1",
+  "description": "Unofficial API Wrapper for Textpro, Photooxy and Instagram Post.",
   "main": "src/index.js",
   "directories": {
     "lib": "lib"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phaticusthiccy/EPhoto-360.git"
+    "url": "git+https://github.com/phaticusthiccy/TextMaker-Unlimited.git"
   },
   "author": "",
   "license": "GNU",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/phaticusthiccy/EPhoto-360/issues"
+    "url": "https://github.com/phaticusthiccy/TextMaker-Unlimited/issues"
   },
-  "homepage": "https://github.com/phaticusthiccy/EPhoto-360#readme"
+  "homepage": "https://github.com/phaticusthiccy/TextMaker-Unlimited#readme"
 }
