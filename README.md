@@ -1,4 +1,4 @@
-# Textpro - Photooxy Unlimited API
+# Textpro - Photooxy - Instagram Graphql Unlimited API
 
 This api can handle thousands of requests. Also its completely free
 and unlimited resources. 
@@ -7,7 +7,7 @@ and unlimited resources.
 
 ## 📦 NPM Installation
 
-`npm i ephoto-360`
+`npm i textmaker-thiccy`
 
 ##
 
@@ -156,7 +156,7 @@ thiccysapi.instagram("https://www.instagram.com/p/CO9PC9DFDCz/?utm_medium=copy_l
 
 // Response 1
 ```
-```json
+```
 {
   link: 'https://instagram.fesb3-1.fna.fbcdn.net/v/t51.2885-15/e35/187224751_1117035015444020_8514248579234890547_n.jpg?tp=1&_nc_ht=instagram.fesb3-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=UbFr2CZqMc4AX9Z9JeC&edm=AABBvjUBAAAA&ccb=7-4&oh=fe05d1e71c6c19101f32ca1fc03d98d7&oe=60D0FC6F&_nc_sid=83d603',
   type: 'Image',
@@ -166,7 +166,7 @@ thiccysapi.instagram("https://www.instagram.com/p/CO9PC9DFDCz/?utm_medium=copy_l
 ```js
 // Response 2
 ```
-```json
+```
 graphql: {
     shortcode_media: {
       __typename: 'GraphImage',
@@ -219,7 +219,7 @@ graphql: {
 ```js
 // Response 3
 ```
-```json
+```
 {
   shortcode_media: {
     __typename: 'GraphImage',
@@ -287,7 +287,7 @@ graphql: {
 ```js
 // Response 4
 ```
-```json
+```
 {
   link: 'https://instagram.fesb3-1.fna.fbcdn.net/v/t51.2885-15/e35/187224751_1117035015444020_8514248579234890547_n.jpg?tp=1&_nc_ht=instagram.fesb3-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=UbFr2CZqMc4AX9Z9JeC&edm=AABBvjUBAAAA&ccb=7-4&oh=fe05d1e71c6c19101f32ca1fc03d98d7&oe=60D0FC6F&_nc_sid=83d603',
   type: 'Image',
