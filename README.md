@@ -1,5 +1,6 @@
 # Textpro - Photooxy - Instagram Graphql Unlimited API
 
+### Only [WhatsAsena](github.com/phaticusthiccy/WhatsAsenaDuplicated) Users Can Use This API ⚠️
 This api can handle thousands of requests. Also its completely free
 and unlimited resources. 
 
