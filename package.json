@@ -1,6 +1,6 @@
 {
   "name": "textmaker-thiccy",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Unofficial API Wrapper for Textpro, Photooxy and Instagram Post.",
   "main": "src/index.js",
   "directories": {
