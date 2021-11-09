@@ -1,7 +1,17 @@
-exports.textpro = require("../lib/textmaker/textpro");
-exports.photooxy = require("../lib/textmaker/photooxy");
-exports.ephoto = require("../lib/textmaker/ephoto");
-exports.pastegg = require("../lib/paste/pastegg");
-exports.keeptiktok = require("../lib/download/keeptiktok");
-exports.snaptik = require("../lib/download/snaptik");
-exports.instagram = require("../lib/download/instagram");
+import textpro from "../lib/textmaker/textpro.js";
+import * as photooxy from "../lib/textmaker/photooxy.js";
+import ephoto from "../lib/textmaker/ephoto.js";
+import pastegg from "../lib/paste/pastegg.js";
+import keeptiktok from "../lib/download/keeptiktok.js";
+import * as snaptik from "../lib/download/snaptik.js";
+import * as instagram from "../lib/download/instagram.js";
+
+export default {
+  textpro,
+  photooxy,
+  ephoto,
+  pastegg,
+  keeptiktok,
+  snaptik,
+  instagram
+}

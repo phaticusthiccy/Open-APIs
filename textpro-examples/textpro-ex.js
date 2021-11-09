@@ -1,4 +1,4 @@
-const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
+// import thiccysapi from 'textmaker-thiccy'; // Import NPM Package
 
 // Some Examples
 

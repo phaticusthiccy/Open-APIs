@@ -18,7 +18,7 @@ and unlimited resources.
 ### Textpro 1
 
 ```js
-const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
+import thiccysapi from 'textmaker-thiccy'; // Import NPM Package
 
 thiccysapi.textpro("<textpro_html>",
     // "Message One" (One Message)
@@ -35,7 +35,7 @@ thiccysapi.textpro("<textpro_html>",
 ### Textpro 2 ( Real Usage With One Message )
 
 ```js
-const thiccysapi = require('textmaker-thiccy');
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
     "Phaticusthiccy"
@@ -51,7 +51,7 @@ thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-onlin
 ### Textpro 3 ( Real Usage With Two Message )
 
 ```js
-const thiccysapi = require('textmaker-thiccy');
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb-1000.html",
     ["Developer"], ["Phaticusthiccy"]
@@ -71,7 +71,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
 ### Photooxy 1
 
 ```js
-const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
+import thiccysapi from 'textmaker-thiccy'; // Import NPM Package
 
 thiccysapi.photooxy("<photooxy_html>",
     // "Message One" (One Message)
@@ -88,7 +88,7 @@ thiccysapi.photooxy("<photooxy_html>",
 ### Photooxy 2 ( Real Usage With One Message )
 
 ```js
-const thiccysapi = require('textmaker-thiccy');
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/shadow-text-effect-in-the-sky-394.html",
     "Phaticusthiccy"
@@ -104,7 +104,7 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/shadow-text-effe
 ### Photooxy 3 ( Real Usage With Two Message )
 
 ```js
-const thiccysapi = require('textmaker-thiccy'); 
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-text-effect-375.html",
     ["Developer"], ["Phaticusthiccy"] 
@@ -123,18 +123,18 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
 
 ### Instagram Post 1 
 
-```js                                                                      
-const thiccysapi = require('textmaker-thiccy')
+```js
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.instagram("<instagram_post_link>"
     ).then(async (dat) => {
-    try { 
+    try {
         console.log(dat) // Raw Response
-        console.log(dat.moreinfo) 
+        console.log(dat.moreinfo)
         console.log(dat.moreinfo.graphql)
         console.log(dat.moreinfo.graphql.shortcode_media) // Final Response
     } catch(err) {
-        console.log(err) 
+        console.log(err)
     }
  });
 ```
@@ -142,7 +142,7 @@ thiccysapi.instagram("<instagram_post_link>"
 ### Instagram Post ( Real Usage With Responses )
 
 ```js
-const thiccysapi = require('textmaker-thiccy')
+import thiccysapi from 'textmaker-thiccy';
 
 thiccysapi.instagram("https://www.instagram.com/p/CO9PC9DFDCz/?utm_medium=copy_link"
     ).then(async (dat) => {
