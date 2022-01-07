@@ -1,19 +1,21 @@
 {
-  "name": "textmaker-thiccy",
-  "version": "1.3.1",
-  "description": "Unofficial API Wrapper for Textpro and Photooxy",
-  "main": "src/index.js",
+  "name": "open-apis",
+  "version": "1.0.0",
+  "description": "Public API Tools. Completely Unlimited Free APIs.",
+  "main": "./index.js",
+  "keywords": ["apı", "API", "tool", "free", "text", "maker", "textmaker", "instagram", "tiktok", "insta", "downloader", "gta", "gta5", "mod", "textpro", "photooxy"],
   "directories": {
-    "lib": "lib"
+    "TextMaker": "TextMaker",
+    "GTAVMod-Finder": "GTAVMod-Finder"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phaticusthiccy/TextMaker-Unlimited.git"
+    "url": "git+https://github.com/phaticusthiccy/Open-APIs.git"
   },
-  "author": "",
+  "author": "Phaticusthiccy",
   "license": "GNU",
   "dependencies": {
     "axios": "^0.21.1",
@@ -25,7 +27,7 @@
   },
   "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/phaticusthiccy/TextMaker-Unlimited/issues"
+    "url": "https://github.com/phaticusthiccy/Open-APIs/issues"
   },
-  "homepage": "https://github.com/phaticusthiccy/TextMaker-Unlimited#readme"
+  "homepage": "https://github.com/phaticusthiccy/Open-APIs#readme"
 }

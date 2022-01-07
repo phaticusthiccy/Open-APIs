@@ -6,6 +6,7 @@
 <img src="https://i.imgur.com/1lc3dZk.gif"/>
     
 This repository stores many open source API tools written by me.
+<<<<<<< Updated upstream
 
 All API tools are gathered under a single repository and made available to use as a single npm package.
 
@@ -37,9 +38,51 @@ The functions you will code, must work in harmony with the existing ones. Click 
 
 ##
 
+=======
+
+All API tools are gathered under a single repository and made available to use as a single npm package.
+
+Here you can find different API tools, develop them or use them on your own server.
+
+All APIs avaliable on JavaScript Modules. 
+
+## 
+<img src="https://i.imgur.com/pEGHVXx.gif"/>
+
+`npm i @phaticusthiccy/open-apis`
+
+##
+
+<img src="https://i.imgur.com/kemSoMd.gif"/>
+    
+API | Description | Method | Folder
+|---|---|---|---|
+TextMaker|Server fetch tool for texpro and photooxy.| POST-GET|/TextMaker|
+GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|/GTAVMod-Finder|
+Tiktok Downloader| Tiktok video downloader.| POST |/TT-Downloader|
+Instagram Downloader| Instagram video & photo downloader.| GET |/InstaDownloader|
+
+
+## 
+    
+<img src="https://i.imgur.com/vElz17b.gif"/>
+    
+Announcement to the developers!
+
+
+Before making any pr requests, make sure the tool is fully operational. Dont forget to give credit.
+The functions you will code, must work in harmony with the existing ones. Click here to see all functions used in this repo!
+
+##
+
+>>>>>>> Stashed changes
 <img src="https://i.imgur.com/k9exXed.gif"/>
     
 Before completing the page, I want to thank everyone who uses these APIs.
 Waiting for your comments and codes.
 
+<<<<<<< Updated upstream
 Stay well.
+=======
+Stay well.
+>>>>>>> Stashed changes
