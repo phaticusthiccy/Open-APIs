@@ -18,6 +18,7 @@
   "author": "Phaticusthiccy",
   "license": "GNU",
   "dependencies": {
+    "chalk": "^4.1.0",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
     "cookie": "^0.4.1",
