@@ -115,6 +115,8 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
 ### TextGlow 
 
 ```js
+const thiccysapi = require('@phaticusthiccy/open-apis'); // Import NPM Package
+
 thiccysapi.glowtext({
     text: "This", // Required!
     text2: "is", // Optional

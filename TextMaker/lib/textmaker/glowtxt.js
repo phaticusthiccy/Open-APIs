@@ -5,7 +5,7 @@ const axios = require("axios");
  * @param {String} text - First Line Text ( Required )
  * @param {String} text2 - Seoond Line Text ( Optioanl - Default: "" )
  * @param {String} text3 - Third Line Text ( Optional - Default: "" )
- * @param {String} font_style - Font Style ( Required - Default: "glowtxt" )
+ * @param {String} font_style - Font Style ( Optional - Default: "glowtxt" )
  * == FONT STYLES ==
  * airman
  * alieninvasion
