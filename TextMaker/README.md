@@ -109,3 +109,50 @@ thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-tex
 ```
 
 #### Interest More Photooxy Examples? Check [Here!]()
+
+##
+
+### TextGlow 
+
+```js
+thiccysapi.glowtext({
+    text: "This", // Required!
+    text2: "is", // Optional
+    text3: "a test", // Optional
+    font_style: "glowtxt", // Optional
+    font_size: "m", // Optional
+    font_colour: "0", // Optional
+    bgcolour: "0", // Optional
+    glow_halo: "1", // Optional
+    non_trans: "false", // Optional
+    glitter_border: "true", // Optional
+    anim_type: "sweep", // Optional
+    sumbit_type: "text" // Optional
+}).then(async (data) => {
+    console.log(data)
+});
+```
+#### Variables for TextGlow
+text: [Click!]()
+
+text2: [Click!]()
+
+text3: [Click!]()
+
+font_style: [Click!]()
+
+font_size: [Click!]()
+
+font_colour: [Click!]()
+
+bgcolour: [Click!]()
+
+glow_halo: [Click!]()
+
+non_trans: [Click!]()
+
+glitter_border: [Click!]()
+
+anim_type: [Click!]()
+
+sumbit_type: [Click!]()
