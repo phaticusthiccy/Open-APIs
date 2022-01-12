@@ -12,3 +12,5 @@ exports.baseWeb = require("./GTAVMod-Finder/forWeb/base");
 exports.readWeb = require("./GTAVMod-Finder/forWeb/searchmod");
 exports.readuserWeb = require("./GTAVMod-Finder/forWeb/searchuser");
 
+// TikTok Downloader 
+exports.tiktok = require("./TT-Downloader/getMeta");

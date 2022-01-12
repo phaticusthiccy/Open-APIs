@@ -1,4 +1,4 @@
-# Textpro - Photooxy - Unlimited API
+# Textpro - Photooxy - TextGlow Unlimited API
 
 ##
 This api can handle thousands of requests. Also its completely free

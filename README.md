@@ -19,9 +19,9 @@ All APIs avaliable on JavaScript Modules.
     
 API | Description | Method | Folder
 |---|---|---|---|
-TextMaker|Server fetch tool for texpro and photooxy.| POST-GET|/TextMaker|
+TextMaker|Server fetch tool for textpro, glowtext and photooxy.| POST-GET|/TextMaker|
 GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|/GTAVMod-Finder|
-Tiktok Downloader| Tiktok video downloader.| POST |/TT-Downloader|
+Tiktok Downloader| Tiktok video downloader.| POST - GET |/TT-Downloader|
 Instagram Downloader| Instagram video & photo downloader.| GET |/InstaDownloader|
 
 
