@@ -1,138 +1,52 @@
-# Textpro - Photooxy - Unlimited API
-
-##
-This api can handle thousands of requests. Also its completely free
-and unlimited resources. 
-
+<div align="center">
+<img src="https://i.imgur.com/nOQj0OF.gif"/>
+ 
 ##
 
-## 📦 NPM Installation
+<img src="https://i.imgur.com/1lc3dZk.gif"/>
+    
+This repository stores many open source API tools written by [Me](https://github.com/phaticusthiccy)
 
-`npm i textmaker-thiccy`
+All API tools are gathered under a single repository and made available to use as a single npm package.
 
-##
+Here you can find different API tools, develop them or use them on your own server.
 
-## 🧾 Examples
+All APIs avaliable on JavaScript Modules. 
 
-### Textpro 1
+## 
 
-```js
-const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
+<img src="https://i.imgur.com/kemSoMd.gif"/>
+    
+API | Description | Method | Folder
+|---|---|---|---|
+TextMaker|Server fetch tool for textpro, glowtext and photooxy.| POST-GET|/TextMaker|
+GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|/GTAVMod-Finder|
+Tiktok Downloader| Tiktok video downloader.| POST - GET |/TT-Downloader|
+Instagram Downloader| Instagram video & photo downloader.| GET |/InstaDownloader|
 
-thiccysapi.textpro("<textpro_html>",
-    // "Message One" (One Message)
-    // ["Message One"], ["Message Two"] (Two Message)
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
 
-### Textpro 2 ( Real Usage With One Message )
+## 
+    
+<img src="https://i.imgur.com/vElz17b.gif"/>
+    
+Announcement to the developers!
 
-```js
-const thiccysapi = require('textmaker-thiccy');
 
-thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
-    "Phaticusthiccy"
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-### Textpro 3 ( Real Usage With Two Message )
-
-```js
-const thiccysapi = require('textmaker-thiccy');
-
-thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb-1000.html",
-    ["Developer"], ["Phaticusthiccy"]
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-#### Interest More Textpro Examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/e473cce16294794d967d10362b9a848b69387ace/textpro-examples/textpro-ex.js)
+Before making any pr requests, make sure the tool is fully operational. Dont forget to give credit.
+ 
+The functions you will code, must work in harmony with the existing ones. Click here to see all functions used in this repo!
 
 ##
 
-### Photooxy 1
+<img src="https://i.imgur.com/pEGHVXx.gif"/>
 
-```js
-const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
+`npm i @phaticusthiccy/open-apis`
 
-thiccysapi.photooxy("<photooxy_html>",
-    // "Message One" (One Message)
-    // ["Message One"], ["Message Two"] (Two Message)
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
+## 
 
-### Photooxy 2 ( Real Usage With One Message )
+<img src="https://i.imgur.com/k9exXed.gif"/>
+    
+Before completing the page, I want to thank everyone who uses these APIs.
+Waiting for your comments and codes.
 
-```js
-const thiccysapi = require('textmaker-thiccy');
-
-thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/shadow-text-effect-in-the-sky-394.html",
-    "Phaticusthiccy"
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-### Photooxy 3 ( Real Usage With Two Message )
-
-```js
-const thiccysapi = require('textmaker-thiccy'); 
-
-thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-text-effect-375.html",
-    ["Developer"], ["Phaticusthiccy"] 
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-#### Interest More Photooxy Examples? Check [Here!](https://github.com/phaticusthiccy/EPhoto-360/blob/2ca3c79fb6330f9dea2b1401f63a3e409e197f34/photooxy-examples/photooxy-ex.js)
-
-##
-
-### [ Warranty - Lifetime ] 🎦
-```bash
-This API not affiliated with any organization or foundation.
-All code is available as open source.
-Development belongs to Phaticusthiccy.
-Every user has unlimited rights.
-Do not use for illegal situations.
-```
-##
-
-### [ Contribution ] 💻
-```json
-Any additions that do not impair functionality are accepted.
-A Any suggestions or additions that go against the code of ethics and GitHub policies will not be accepted.
-All suggestions for personalization purposes will not be accepted.
-```
+Stay well.
