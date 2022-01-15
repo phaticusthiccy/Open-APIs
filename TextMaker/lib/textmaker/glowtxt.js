@@ -195,7 +195,7 @@ const axios = require("axios");
  * @returns {string}
  */
 
- const axios = require("axios");
+ 
 
  async function glowtext(options) {
      if (!options.text2 || options.text2 == "") {
