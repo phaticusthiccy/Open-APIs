@@ -135,26 +135,26 @@ thiccysapi.glowtext({
 });
 ```
 #### Variables for TextGlow
-text: [Click!]()
+text: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L5)
 
-text2: [Click!]()
+text2: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L6)
 
-text3: [Click!]()
+text3: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L7)
 
-font_style: [Click!]()
+font_style: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L8)
 
-font_size: [Click!]()
+font_size: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L158)
 
-font_colour: [Click!]()
+font_colour: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L168)
 
-bgcolour: [Click!]()
+bgcolour: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L179)
 
-glow_halo: [Click!]()
+glow_halo: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L180)
 
-non_trans: [Click!]()
+non_trans: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L186)
 
-glitter_border: [Click!]()
+glitter_border: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L187)
 
-anim_type: [Click!]()
+anim_type: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L188)
 
-sumbit_type: [Click!]()
+sumbit_type: [Click!](https://github.com/phaticusthiccy/TextMaker-Unlimited/blob/832bae08bf9b993dc5df4301fc9e143f870768b9/TextMaker/lib/textmaker/glowtxt.js#L194)
