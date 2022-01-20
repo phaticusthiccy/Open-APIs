@@ -1,7 +1,6 @@
 var getMetafromStories = require("../lib/stories_meta");
 const formatInstaStoryData = require("../lib/stories_format");
 var axios = require("axios");
-const { insta_post } = require("../..");
 
 var if_cont = false
 
