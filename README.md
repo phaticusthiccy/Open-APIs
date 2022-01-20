@@ -22,7 +22,7 @@ API | Description | Method | Folder
 TextMaker|Server fetch tool for textpro, glowtext and photooxy.| POST-GET|[/TextMaker](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/TextMaker)|
 GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|[/GTAVMod-Finder](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/GTAVMod-Finder)|
 Tiktok Downloader| Tiktok video downloader.| POST - GET |[/TT-Downloader](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/TT-Downloader)|
-Instagram Downloader| Instagram video & photo downloader.| GET |/InstaDownloader (Not Yet)|
+Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| GET-POST |/InstaDownloader|
 
 
 ## 

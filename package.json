@@ -1,12 +1,37 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
-  "keywords": ["apı", "API", "tool", "free", "text", "maker", "textmaker", "instagram", "tiktok", "insta", "downloader", "gta", "gta5", "mod", "textpro", "photooxy"],
+  "keywords": [
+    "apı",
+    "API",
+    "tool",
+    "free",
+    "text",
+    "maker",
+    "textmaker",
+    "instagram",
+    "tiktok",
+    "insta",
+    "downloader",
+    "gta",
+    "gta5",
+    "mod",
+    "textpro",
+    "insta api",
+    "reels",
+    "igtv",
+    "story",
+    "post",
+    "photooxy"
+  ],
   "directories": {
     "TextMaker": "TextMaker",
-    "GTAVMod-Finder": "GTAVMod-Finder"
+    "GTAVMod-Finder": "GTAVMod-Finder",
+    "InstaDownloader": "InstaDownloader",
+    "TT-Downloader": "TT-Downloader",
+    "node_modules": "node_modules"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +43,8 @@
   "author": "Phaticusthiccy",
   "license": "GNU",
   "dependencies": {
+    "axios": "^0.21.4",
     "chalk": "^4.1.0",
-    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
     "cookie": "^0.4.1",
     "form-data": "^4.0.0",

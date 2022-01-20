@@ -34,7 +34,7 @@ If One Server Down, You Can Use Another One.
         id: 'task id',
         video_id: 'video id',
         title: 'video title',
-        caption: 'video caption ,
+        caption: 'video caption',
         cover: 'video thumbnail url',
         url: 'video download url',
         user: {
@@ -49,7 +49,7 @@ If One Server Down, You Can Use Another One.
             url: 'music download url',
             cover: 'music album cover'
         },
-        updated_at: "last update date',
+        updated_at: 'last update date',
         video_url: 'video url',
         stats: {
             likes: 'like count',
@@ -61,3 +61,4 @@ If One Server Down, You Can Use Another One.
         created_at: 'creation date'
     }
 }
+```
