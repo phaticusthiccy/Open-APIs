@@ -19,10 +19,10 @@ All APIs avaliable on JavaScript Modules.
     
 API | Description | Method | Folder
 |---|---|---|---|
-TextMaker|Server fetch tool for textpro, glowtext and photooxy.| POST-GET|[/TextMaker](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/TextMaker)|
-GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|[/GTAVMod-Finder](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/GTAVMod-Finder)|
-Tiktok Downloader| Tiktok video downloader.| POST - GET |[/TT-Downloader](https://github.com/phaticusthiccy/TextMaker-Unlimited/tree/main/TT-Downloader)|
-Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| GET-POST |/InstaDownloader|
+TextMaker|Server fetch tool for textpro, glowtext and photooxy.| POST-GET|[/TextMaker](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker)|
+GTAV Mod Finder| A Data fetch tool from gta5mods.| GET|[/GTAVMod-Finder](https://github.com/phaticusthiccy/Open-APIs/tree/main/GTAVMod-Finder)|
+Tiktok Downloader| Tiktok video downloader.| POST - GET |[/TT-Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/TT-Downloader)|
+Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| GET-POST |[/InstaDownloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)|
 
 
 ## 
