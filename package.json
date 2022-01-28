@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
@@ -14,6 +14,9 @@
     "instagram",
     "tiktok",
     "insta",
+    "npm",
+    "npm scraper",
+    "npm package",
     "downloader",
     "gta",
     "gta5",
@@ -31,6 +34,7 @@
     "GTAVMod-Finder": "GTAVMod-Finder",
     "InstaDownloader": "InstaDownloader",
     "TT-Downloader": "TT-Downloader",
+    "NpmSearch": "NpmSearch",
     "node_modules": "node_modules"
   },
   "scripts": {
