@@ -28,3 +28,11 @@ exports.insta_profile = require("./InstaDownloader/start/instagram_profile");
 exports.insta_story = require("./InstaDownloader/start/instagram_story");
 exports.insta_post = require("./InstaDownloader/start/instagram_post");
 exports.insta_reel = require("./InstaDownloader/start/instagram_reel");
+
+// NPM Search
+exports.getPackageMetaFromQuery = require("./NpmSearch/data/getPackageMetaFromQuery");
+exports.getMorePackageMetaFromURL = require("./NpmSearch/data/getMorePackageMetaFromURL");
+exports.editPackageMeta = require("./NpmSearch/data/editPackageMeta");
+exports.getUserMetaFromQuery = require("./NpmSearch/data/getUserMetaFromQuery");
+exports.npm_module = require("./NpmSearch/start/startGetPackage");
+exports.npm_user = require("./NpmSearch/start/startGetUser");

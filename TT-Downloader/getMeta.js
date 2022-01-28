@@ -34,13 +34,14 @@ async function tpost(schema) {
         } catch {
           data.server1.music = undefined
         }
+        var new_token = await axios.get("https://tiktokdownloader.one/")
+        new_token = new_token.data.split('token_" content="')[1].split('"')[0]
         var tt_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
-        var tt_token = "0121C3C6-5DF8-4BB0-9BDD-9AD9F9CB6396"
         var data4 = await axios.request({
           method: "get",
           url: "https://tiktokdownloader.one/api/v1/fetch?url=" + schema.url,
           headers: {
-            token: tt_token,
+            token: new_token,
             "user-agent": tt_agent
           }
         })
