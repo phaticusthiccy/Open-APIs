@@ -34,12 +34,12 @@ instagram.insta_reel("reel url").then(async (data) => {
 
 // ========== STORY DOWNLOADER ========== 
 async function start() {
-    var data = await instagram.insta_story("story url")
+    var data = await instagram.insta_story("username")
     console.log(data)
 }
 
 // Outside of Async Function
-instagram.insta_story("story url").then(async (data) => {
+instagram.insta_story("username").then(async (data) => {
     console.log(data)
 })
 
@@ -89,17 +89,28 @@ instagram.insta_profile("username").then(async (data) => {
 #### STORY DOWNLOADER
 ```graphq
 {
+    id: user id,
+    username: 'username',
+    name: 'name',
+    bio: 'biograhpy',
+    website: 'website url',
+    avatar: 'sd profile picture',
+    followers: followers,
+    following: following,
+    post_count: media count,
+    story_count: stories count,
     stories: [
         {
-            media_type: "story type",
-            url: "download url"
+            type: 'photo',
+            url: 'download url'
         },
         {
-            media_type: "story type",
-            url: "download url"
+            type: 'video',
+            url: 'download url'
         },
         {
-            ... (media_type = "photo / video")
+            ... (type = "photo" / "video")
+            ... (url = "download url" )
         }
     ]
 }
