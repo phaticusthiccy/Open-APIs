@@ -22,6 +22,7 @@ exports.export_reelsData = require("./InstaDownloader/lib/reels");
 exports.getInstaCode_fromUserPKID = require("./InstaDownloader/lib/stories");
 exports.formatInstaStoryData = require("./InstaDownloader/lib/stories_format");
 exports.getMetafromStories = require("./InstaDownloader/lib/stories_meta");
+exports.stories_fetch = require("./InstaDownloader/lib/stories_fetch");
 exports.getMetaFromNameUsername = require("./InstaDownloader/lib/search_from_name");
 exports.getUserMeta = require("./InstaDownloader/lib/getUserMeta");
 exports.insta_profile = require("./InstaDownloader/start/instagram_profile");
@@ -36,3 +37,9 @@ exports.editPackageMeta = require("./NpmSearch/data/editPackageMeta");
 exports.getUserMetaFromQuery = require("./NpmSearch/data/getUserMetaFromQuery");
 exports.npm_module = require("./NpmSearch/start/startGetPackage");
 exports.npm_user = require("./NpmSearch/start/startGetUser");
+
+// Github Scraper
+exports.getBasicMetaGithub = require("./GithubScraper/data/getBasicMeta");
+exports.uncacheToken = require("./GithubScraper/data/uncacheToken");
+exports.editBasicMetaGithub = require("./GithubScraper/data/editBasicMeta")
+exports.github_user = require("./GithubScraper/start/startUserStats");

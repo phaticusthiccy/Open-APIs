@@ -24,6 +24,7 @@ GTAV Mod Finder| A Data fetch tool from gta5mods.| 150-400ms |[/GTAVMod-Finder](
 Tiktok Downloader| Tiktok video downloader.| 4900-15000ms |[/TT-Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/TT-Downloader)|
 Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| 7000-20000ms |[/InstaDownloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)|
 NPM Scraper | Data fetch tool for npm users and packages.| 120-300ms | [/NpmSearch](https://github.com/phaticusthiccy/Open-APIs/tree/main/NpmSearch)|
+Github Scraper | Exclusive and advanced github profile analyzier. (With Achievements) | 500-3000ms | [/GithubScraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/GithubScraper)|
 
 
 ## 

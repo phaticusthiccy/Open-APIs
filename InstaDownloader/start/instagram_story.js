@@ -1,10 +1,11 @@
 var getMetafromStories = require("../lib/stories_meta");
 const formatInstaStoryData = require("../lib/stories_format");
+var stories_fetch = require("../lib/stories_fetch");
 var axios = require("axios");
 
 var if_cont = false
 
-async function insta_story(username) {
+async function insta_story_legacy(username) {
     var data;
     try {
         data = await getMetafromStories(username)
@@ -145,4 +146,63 @@ async function insta_story(username) {
 
     return payload;
 };
+async function insta_story(username_query) {
+    var payload = {
+        id: 0,
+        username: username_query,
+        name: "",
+        bio: "",
+        website: "",
+        avatar: "https://storiesig.me",
+        followers: 0,
+        following: 0,
+        post_count: 0,
+        story_count: 0,
+        stories: []
+    }
+    var ex_Data;
+    if (typeof username_query !== "string") {
+        throw new Error ("Username Must Be String, Not a " + typeof username_query + "!")
+    }
+    if (username_query.split("").length > 30) {
+        throw new Error ("Input Must Be A Username! Not a Profile Link or Something Else!")
+    }
+    try {
+        ex_Data = await stories_fetch(username_query)
+        await axios({
+            url: "https://storiesig.me/tr/" + username_query,
+            method: "get",
+            headers: {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+            }
+        })
+    } catch {
+         throw new Error ("Cannot Found Any User!")
+    }
+    if (ex_Data.profileInfo.isPrivate == true) {
+        throw new Error ("Account is Private!")
+    }
+    payload.id = ex_Data.profileInfo.id
+    try {
+        ex_Data.stories.map(element => {})
+    } catch {
+        throw new Error ("There is No Story From " + username_query)
+    }
+    ex_Data.stories.map(element => {
+        if (typeof element.originalUrl == "string") {
+            delete element.originalUrl
+        }
+        element.url = "https://storiesig.me" + element.url
+        payload.stories.push(element)
+    })
+    payload.followers = ex_Data.profileInfo.subscriber
+    payload.following = ex_Data.profileInfo.subscription
+    payload.post_count = ex_Data.profileInfo.publication
+    payload.name = ex_Data.profileInfo.name
+    payload.bio = ex_Data.profileInfo.bio
+    payload.website = ex_Data.profileInfo.website
+    payload.avatar = payload.avatar + ex_Data.profileInfo.avatar
+    payload.story_count = payload.stories.length
+    return payload;
+}
 module.exports = insta_story;

@@ -19,6 +19,9 @@
     "npm package",
     "downloader",
     "gta",
+    "github",
+    "gh scarper",
+    "github fetch",
     "gta5",
     "mod",
     "textpro",
@@ -32,6 +35,7 @@
   "directories": {
     "TextMaker": "TextMaker",
     "GTAVMod-Finder": "GTAVMod-Finder",
+    "GithubScraper": "GithubScraper",
     "InstaDownloader": "InstaDownloader",
     "TT-Downloader": "TT-Downloader",
     "NpmSearch": "NpmSearch",
