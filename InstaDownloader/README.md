@@ -62,7 +62,7 @@ instagram.insta_profile("username").then(async (data) => {
 ## 📂 Response
 
 #### POST & IGTV DOWNLOADER
-```graphq
+```graphql
 {
     post1: {
         url: 'download url',
@@ -79,7 +79,7 @@ instagram.insta_profile("username").then(async (data) => {
 ``` 
 
 #### REEL DOWNLOADER
-```graphq
+```graphql
 {
     expires: 'Unlimited',
     url: 'download url'
@@ -87,7 +87,7 @@ instagram.insta_profile("username").then(async (data) => {
 ```
 
 #### STORY DOWNLOADER
-```graphq
+```graphql
 {
     id: user id,
     username: 'username',
@@ -117,7 +117,7 @@ instagram.insta_profile("username").then(async (data) => {
 ```
 
 #### PROFILE ANALYZER 
-```graphq
+```graphql
 {
     profile_pic: "sd profile photo url",
     bio: "profile biography",

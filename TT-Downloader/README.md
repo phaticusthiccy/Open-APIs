@@ -23,7 +23,7 @@ download.tiktok("tiktok url").then(async (data) => {
 
 If One Server Down, You Can Use Another One.
 
-```graphq
+```graphql
 {
     status: true | false,
     server1: {
