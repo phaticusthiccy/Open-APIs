@@ -84,6 +84,7 @@ gta5mods.readuserWeb('thiccy').then(async (data2) => {
   status: true,
   name: "Thiccy",
   profile_pic: "https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/1358134/d7b595-tumblr_oshm2jYFiT1w320ago8_400.jpg",
+  profile_url: "https://www.gta5-mods.com/users/Thiccy",
   likes: "0",
   comments: "14",
   videos: "4",
@@ -110,6 +111,8 @@ gta5mods.readuserWeb('thiccy').then(async (data2) => {
 `author_page`: Mod Owner's Page URL.
 
 `profile_pic`: User's Profile Pic URL.
+
+`profile_url`: User's Profile URL.
 
 `likes`: Number of Mods the User Liked.
 

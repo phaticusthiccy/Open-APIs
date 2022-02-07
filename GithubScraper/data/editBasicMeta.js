@@ -389,7 +389,7 @@ async function editBasicMetaGithub(name) {
             payload = "Super"
         }
         else if (classes.startsWith('Great')) {
-            payload = "Graet"
+            payload = "Great"
         }
         else {
             payload = "Newbie"

@@ -59,7 +59,7 @@ async function getUserMeta(username) {
             '<div class="profile-statistics__block-stat">'
         )[3].split(
             '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "")
+        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("days", " days")
         newObj.video_percentage = data.data.split(
             '<div class="chart_labels__videos">'
         )[1].split('</span>')[1].split(" ")[0]

@@ -34,12 +34,24 @@ async function tpost(schema) {
         } catch {
           data.server1.music = undefined
         }
-        var new_token = await axios.get("https://tiktokdownloader.one/")
+        var new_token = await axios({
+          url: "https://tiktokdownloader.one/",
+          method: "get",
+          headers: {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+          }
+        })
         new_token = new_token.data.split('token_" content="')[1].split('"')[0]
         var tt_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+        var af_url = ""
+        if (schema.url.includes('?') ) {
+          af_url = schema.url.split('?')[0]
+        } else {
+          af_url = schema.url
+        }
         var data4 = await axios.request({
           method: "get",
-          url: "https://tiktokdownloader.one/api/v1/fetch?url=" + schema.url,
+          url: "https://tiktokdownloader.one/api/v1/fetch?url=" + af_url,
           headers: {
             token: new_token,
             "user-agent": tt_agent

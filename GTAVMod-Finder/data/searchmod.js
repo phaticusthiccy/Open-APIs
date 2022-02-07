@@ -21,19 +21,22 @@ async function read() {
   var count = 1
   try {
     var test = text.split(usermeta)
+    var test2 = text.split(trimbf)[1].split('title="')[1].split('">')[0]
   } catch {
     count = 0
   }
   var prog = text
   if (count == 1) {
+    var af_name;
+    if (prog.split(trimbf)[1].split('title="')[1].split('">')[0].endsWith(" ")) {
+      var af_arr = prog.split(trimbf)[1].split('title="')[1].split('">')[0].split("")
+      var af2_arr = af_arr.slice(0, -1)
+      af_name = af2_arr.join('')
+    } else {
+      af_name = prog.split(trimbf)[1].split('title="')[1].split('">')[0]
+    }
     former.status = true
-    former.name = prog.split(
-      trimbf
-    )[1].split(
-      'title="'
-    )[1].split(
-      '">'
-    )[0]
+    former.name = af_name
     former.url = "https://www.gta5-mods.com" + prog.split(
       trimbf
     )[1].split(
@@ -67,6 +70,7 @@ async function read() {
   } else {
     former.status = false                                                                 
   }
+  
   return former                                                                         
 }
                                                                                        

@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 const FormData = require("form-data");
 const exec = require('child_process').exec;
 const os = require("os");
+const axios = require("axios");
 
 /**
  * Photooxy Scraper

@@ -1,0 +1,20 @@
+checkPermissions = ignore
+.user .user => npm i -g npm
+.user .user .node => -bash: node: $npm i -g npm
+.user .user .sudo => $sudo npm i -g npm
+natdunn$ node -v 
+.user .user .text .write .press => "Enter"
+.user .brew => ignore 
+.user * => ignore
+.root * => ignore
+.bin * => ignore
+.src * => ignore
+.HEAD * => ignore
+.temp * => ignore
+.file * => ignore
+../ * => ignore
+.github * => ignore
+.gitignore * => ignore
+.node * => ignore
+.node_temp * => ignore
+.node_modules * => ignore
