@@ -1,0 +1,27 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/phaticusthiccy/Open-APIs.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "1.3.0"]
+	remote = origin
+	merge = refs/heads/1.3.0
+[branch "1.4.0"]
+	remote = origin
+	merge = refs/heads/1.4.0
+[user]
+	name = Thiccy
+	email = birhic023@gmail.com
+[branch "1.5.0"]
+	remote = origin
+	merge = refs/heads/1.5.0

@@ -11,6 +11,7 @@ async function readuser(name) {
     status: false,
     name: "",                                                         
     profile_pic: "",
+    profile_url: "",
     likes: "",
     comments: "",                                                     
     videos: "",                                                       
@@ -125,6 +126,7 @@ async function readuser(name) {
     ).replace(
       ' ', ''
     )
+    metadata.profile_url = "https://www.gta5-mods.com/users/" + name
   } else {
     metadata.status = false
   }

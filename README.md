@@ -38,11 +38,16 @@ Before making any pr requests, make sure the tool is fully operational. Dont for
  
 The functions you will code, must work in harmony with the existing ones. Click here to see all functions used in this repo!
 
+[Check Internal Tests](https://github.com/phaticusthiccy/Open-APIs/tree/main/one-line-test)
 ##
 
 <img src="https://i.imgur.com/pEGHVXx.gif"/>
 
-`npm i @phaticusthiccy/open-apis`
+[`npm i @phaticusthiccy/open-apis`](https://www.npmjs.com/package/@phaticusthiccy/open-apis)
+
+Test API in Console: `git clone https://github.com/phaticusthiccy/Open-APIs/ && cd Open-APIs && npm test`
+
+Dev Mode: `npm dev`
 
 ## 
 

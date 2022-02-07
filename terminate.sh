@@ -1,0 +1,2 @@
+
+trap exit INT
