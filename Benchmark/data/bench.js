@@ -145,13 +145,13 @@ async function system_requirements(games, cpus = "7700hq", gpus = "1050", rams =
     expected_fps.game.publisher = data.data.split('Publisher: ')[1].split('<br')[0]
     expected_fps.game.hardware_requirements = data.data.split('System Reqs.<span>')[1].split('</span>')[0]
     expected_fps.system_requirements.minimum.cpu = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[1].split("</div>")[0]
-    expected_fps.system_requirements.minimum.ram = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[2].split("</div>")[0].replace(/ /gi, "")
+    expected_fps.system_requirements.minimum.ram = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[2].split("</div>")[0].replace(/ /gi, "").replace("RAM", " RAM")
     expected_fps.system_requirements.minimum.gpu = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[3].split("</div>")[0]
     expected_fps.system_requirements.minimum.directx = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[4].split("</div>")[0]
     expected_fps.system_requirements.minimum.os = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[5].split("</div>")[0]
     expected_fps.system_requirements.minimum.hdd = data.data.split("<h2>Minimum system requirements:</h2>")[1].split("<div class='gsr_text'>")[6].split("</div>")[0]
     expected_fps.system_requirements.recommended.cpu = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[1].split("</div>")[0]
-    expected_fps.system_requirements.recommended.ram = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[2].split("</div>")[0].replace(/ /gi, "")
+    expected_fps.system_requirements.recommended.ram = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[2].split("</div>")[0].replace(/ /gi, "").replace("RAM", " RAM")
     expected_fps.system_requirements.recommended.gpu = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[3].split("</div>")[0]
     expected_fps.system_requirements.recommended.directx = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[4].split("</div>")[0]
     expected_fps.system_requirements.recommended.os = data.data.split("<h2>Recommended system requirements:</h2>")[1].split("<div class='gsr_text'>")[5].split("</div>")[0]

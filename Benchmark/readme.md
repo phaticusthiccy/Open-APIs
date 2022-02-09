@@ -54,7 +54,7 @@ Game.gpu_scraper.then(async (data) => {
     minimum: {
       cpu: 'Intel Core i5 or equivalent',
       gpu: 'NVIDIA® GeForce® GT 1030 and higher',
-      ram: '8GBRAM',
+      ram: '8GB RAM',
       hdd: 'Please reserve 30 GB of space',
       directx: 'Version 11',
       os: 'Windows 7 SP1 64-bit, Windows 8.1 64-bit or Windows 10 64-bit'
@@ -62,7 +62,7 @@ Game.gpu_scraper.then(async (data) => {
     recommended: {
       cpu: 'Intel Core i7 equivalent or higher',
       gpu: 'NVIDIA GeForce GTX 1060 6 GB and higher',
-      ram: '16GBRAM',
+      ram: '16GB RAM',
       hdd: 'Please reserve 30 GB of space',
       directx: 'Version 11',
       os: 'Windows 7 SP1 64-bit, Windows 8.1 64-bit, or Windows 10 64-bit'
@@ -125,7 +125,10 @@ Game.gpu_scraper.then(async (data) => {
     l1_cache: [Function: l1_cache],
     l2_cache: '1536 KB'
   },
-  performance: { pixel_rate: '49.06 GPixel/s', texture_rate: '196.2 GTexel/s' },
+  performance: { 
+      pixel_rate: '49.06 GPixel/s',
+      texture_rate: '196.2 GTexel/s' 
+  },
   graphics_features: {
     directx: '12',
     opengl: '4.6',
