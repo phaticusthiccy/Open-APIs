@@ -41,5 +41,20 @@ exports.npm_user = require("./NpmSearch/start/startGetUser");
 // Github Scraper
 exports.getBasicMetaGithub = require("./GithubScraper/data/getBasicMeta");
 exports.uncacheToken = require("./GithubScraper/data/uncacheToken");
-exports.editBasicMetaGithub = require("./GithubScraper/data/editBasicMeta")
+exports.editBasicMetaGithub = require("./GithubScraper/data/editBasicMeta");
 exports.github_user = require("./GithubScraper/start/startUserStats");
+
+// Game System Requirements
+exports.getCpu = require("./Benchmark/data/cpu");
+exports.getGpu = require("./Benchmark/data/gpu");
+exports.getGame = require("./Benchmark/data/game");
+exports.getVram = require("./Benchmark/data/vram");
+exports.getOs = require("./Benchmark/data/os");
+exports.getRam = require("./Benchmark/data/ram");
+exports.bench = require("./Benchmark/data/bench");
+exports.system_requirements = require("./Benchmark/data/bench")
+exports.banner = require("./Benchmark/data/banner");
+exports.review_bench = require("./Benchmark/data/review");
+exports.gpu_info = require("./Benchmark/data/gpu_info");
+exports.gpu_scraper = require("./Benchmark/data/gpu_scraper");
+exports.cpu_info = require("./Benchmark/data/cpu_info");

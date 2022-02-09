@@ -12,6 +12,8 @@ require("./index.js").insta_profile("").then(async(test)=>{console.log(test)})
 require("./index.js").npm_user("").then(async(test)=>{console.log(test)})
 require("./index.js").npm_module("").then(async(test)=>{console.log(test)})
 require("./index.js").github_user("").then(async(test)=>{console.log(test)})
+require("./index.js").system_requirements("").then(async(test)=>{console.log(test)})
+require("./index.js").gpu_scraper("").then(async(test)=>{console.log(test)})
 
 // require("./index.js").function("").then(async(test)=>{console.log(test)})
 // require("./index.js").function("").then(async(test)=>{console.log(test)})

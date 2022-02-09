@@ -1,0 +1,90 @@
+[
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 11646468,
+                              "nice": 0,
+                              "sys": 3103171,
+                              "idle": 27246781,
+                              "irq": 680156
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 6284531,
+                              "nice": 0,
+                              "sys": 1300234,
+                              "idle": 34411406,
+                              "irq": 98046
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 12777796,
+                              "nice": 0,
+                              "sys": 1948750,
+                              "idle": 27269625,
+                              "irq": 60843
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 9058468,
+                              "nice": 0,
+                              "sys": 1219546,
+                              "idle": 31718156,
+                              "irq": 26687
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 10135046,
+                              "nice": 0,
+                              "sys": 1566625,
+                              "idle": 30294484,
+                              "irq": 41578
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 7175625,
+                              "nice": 0,
+                              "sys": 1154000,
+                              "idle": 33666531,
+                              "irq": 30687
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 8809203,
+                              "nice": 0,
+                              "sys": 1388515,
+                              "idle": 31798437,
+                              "irq": 41843
+                    }
+          },
+          {
+                    "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+                    "speed": 2808,
+                    "times": {
+                              "user": 14446953,
+                              "nice": 0,
+                              "sys": 1300921,
+                              "idle": 26248281,
+                              "irq": 22328
+                    }
+          }
+]
