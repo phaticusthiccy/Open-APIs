@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
@@ -20,6 +20,11 @@
     "downloader",
     "gta",
     "github",
+    "game system requirements",
+    "game",
+    "system requirements",
+    "cpu",
+    "gpu",
     "gh scarper",
     "github fetch",
     "gta5",
@@ -39,18 +44,28 @@
     "InstaDownloader": "InstaDownloader",
     "TT-Downloader": "TT-Downloader",
     "NpmSearch": "NpmSearch",
+    "dev_test": "dev_test",
+    ".hub": ".hub",
+    ".vscode": ".vscode",
+    ".github": ".github",
+    "Benchmark": "Benchmark",
     "one-line-test": "one-line-test",
     "node_modules": "node_modules"
   },
   "scripts": {
-    "test": "npm i && clear && node node_test",
-    "dev": "npm install -trace-warnings && npm up && node dev_test"
+    "test": "npm i && cls && node node_test",
+    "test_linux": "npm install && clear && node ./node_test.js",
+    "test_mac": "npm i && IO.write \"\\e[H\\e[2J\\e[3J\" && node node_test",
+    "dev": "npm install -trace-warnings && npm up && node nodedev_test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phaticusthiccy/Open-APIs.git"
   },
-  "author": "Phaticusthiccy",
+  "funding": {
+    "type": "individual",
+    "url": "https://phaticusthiccy.github.io"
+  },
   "license": "GNU",
   "dependencies": {
     "axios": "^0.21.4",
@@ -66,5 +81,6 @@
   "bugs": {
     "url": "https://github.com/phaticusthiccy/Open-APIs/issues"
   },
+  "author": "Thiccy <birhic023@gmail.com> (https://phaticusthiccy.github.io)",
   "homepage": "https://github.com/phaticusthiccy/Open-APIs#readme"
 }

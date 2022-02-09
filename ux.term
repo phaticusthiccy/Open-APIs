@@ -1,0 +1,9 @@
+checkPermissions = ignore
+checkModules = ignore
+checkRoot = ignore
+run (as) node => run $npm test
+run (as) node => run $npm dev
+func run_sc = (ux = ux)  {
+  run_sc (as) node => return (run (as) node) => ux
+}
+getOs = getOs(func (run (as) shell) => run_sc (as) * => shell)

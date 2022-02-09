@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/nOQj0OF.gif"/>
+<a href="https://www.npmjs.com/package/@phaticusthiccy/open-apis"><img src="https://i.imgur.com/nOQj0OF.gif"/></a>
  
 ##
 
@@ -25,6 +25,7 @@ Tiktok Downloader| Tiktok video downloader.| 4900-15000ms |[/TT-Downloader](http
 Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| 7000-20000ms |[/InstaDownloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)|
 NPM Scraper | Data fetch tool for npm users and packages.| 120-300ms | [/NpmSearch](https://github.com/phaticusthiccy/Open-APIs/tree/main/NpmSearch)|
 Github Scraper | Exclusive and advanced github profile analyzier. (With Achievements) | 500-3000ms | [/GithubScraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/GithubScraper)|
+Game System Requirements | Get GPU specs or game requirements. | 500-1900ms | [/Benchmark](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)|
 
 
 ## 
@@ -45,9 +46,15 @@ The functions you will code, must work in harmony with the existing ones. Click 
 
 [`npm i @phaticusthiccy/open-apis`](https://www.npmjs.com/package/@phaticusthiccy/open-apis)
 
-Test API in Console: `git clone https://github.com/phaticusthiccy/Open-APIs/ && cd Open-APIs && npm test`
+#
+Windows Test: `npm test`
 
-Dev Mode: `npm dev`
+Mac Test: `npm run test_mac`
+
+Linux Test: `npm run test_linux`
+
+Dev Test: `npm run dev`
+#
 
 ## 
 

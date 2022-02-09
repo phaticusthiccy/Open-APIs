@@ -16,7 +16,8 @@ var gta_test1   = require("./GTAVMod-Finder/data/searchmod")
 var gta_test2   = require("./GTAVMod-Finder/data/searchuser")
 var npm_test1   = require("./NpmSearch/start/startGetPackage")
 var npm_test2   = require("./NpmSearch/start/startGetUser")
-
+var game_test1  = require("./Benchmark/data/bench")
+var game_test2  = require("./Benchmark/data/gpu_scraper")
 // Extra
 var axios = require("axios")
 var fs = require("fs")
@@ -203,6 +204,7 @@ class startthetest {
     constructor() {
     }
     async start() {
+        await exec(input[9])
         getVers().then( async () => {
             syncWait(800)
             rl.question("\u001b[40;1mPlease, Select The Main Menu\u001b[0m" + "\n\n\n" + "1) Instagram Scraper\n" +
@@ -210,7 +212,7 @@ class startthetest {
                 "3) Tiktok Downloader\n"+
                 "4) TextMaker Logo Creator\n"+
                 "5) GTAV Mod Finder\n"+
-                "6) NPM Scraper\n\n>>> ", async (int1) => {
+                "6) NPM Scraper\n7) Game System Requirements Scraper\n\n>>> ", async (int1) => {
                 if (Number(int1) == 1) {
                     console.log("Selected Instagram Module")
                     await delay(1100)
@@ -711,6 +713,57 @@ class startthetest {
                                 } else if (int31 == 2) {
                                     var txtatsuadasatsssts = await npm_test2("phaticusthiccy")
                                     console.log(txtatsuadasatsssts)
+                                    process.exit()
+                                } else {
+                                    chalk_animation.neon(input[8])
+                                    await delay(3000)
+                                    process.exit()
+                                }
+                            })
+                        } else {
+                            chalk_animation.neon(input[8])
+                            await delay(3000)
+                            process.exit()
+                        }
+                    })
+                } else if (Number(int1) == 7) {
+                    console.log("Selected Game System Requirements Module")
+                    await delay(1100)
+                    await exec(input[9])
+                    await delay(1100)
+                    rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m \n\n\n1) Game Requirements \n2) GPU Scraper\n\n>>> ", async (int62) => {
+                        int62 = Number(int62)
+                        if (int62 == 1) {
+                            rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any games you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int331) => {
+                                int331 = Number(int331)
+                                if (int331 == 1) {
+                                    rl.question("Enter The Game You Want to Seacrh >>> ", async (int28) => {
+                                        var ttxtattstzatts = await game_test1(int28)
+                                        console.log(ttxtattstzatts)
+                                        process.exit()
+                                    })
+                                } else if (int331 == 2) {
+                                    var ttxtattstdzatts = await game_test1("Genshin Impact")
+                                    console.log(ttxtattstdzatts)
+                                    process.exit()
+                                } else {
+                                    chalk_animation.neon(input[8])
+                                    await delay(3000)
+                                    process.exit()
+                                }
+                            })
+                        } else if (int62 == 2) {
+                            rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can select any gpu you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int331) => {
+                                int331 = Number(int331)
+                                if (int331 == 1) {
+                                    rl.question("Enter The GPU You Want to Seacrh >>> ", async (int28) => {
+                                        var ttxtattsdasstzatts = await game_test2(int28)
+                                        console.log(ttxtattsdasstzatts)
+                                        process.exit()
+                                    })
+                                } else if (int331 == 2) {
+                                    var ttxtattstdzaaaawwtts = await game_test2("Titan X")
+                                    console.log(ttxtattstdzaaaawwtts)
                                     process.exit()
                                 } else {
                                     chalk_animation.neon(input[8])
