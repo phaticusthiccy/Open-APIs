@@ -126,6 +126,7 @@ async function getGame(Query) {
     }
     var splitted;
     try {
+        var matches = splitted.split("<td class='tbl'>")[1].split("<a href='")[1].split("'")[0]
         splitted = payload.split("&nbsp;")[1]
     } catch {
         throw new Error ("Cannot Found Any Game")

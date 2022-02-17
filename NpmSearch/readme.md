@@ -38,7 +38,7 @@ NPM.npm_user("username").then(async (data) => {
 ## 📂 Response
 
 #### NPM PACKAGE SEARCH
-```graphql
+```javascript
 [
     {
         name: 'packge name',
@@ -76,7 +76,7 @@ NPM.npm_user("username").then(async (data) => {
 
 #### NPM USER SEARCH
 
-```graphql
+```javascript
 {
   username: 'username',
   name: 'npm name',

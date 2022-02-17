@@ -66,7 +66,7 @@ gta5mods.readuserWeb('thiccy').then(async (data2) => {
 
 > Mod Search
 
-```graphql
+```javascript
 {
   status: true,
   name: "Neon Rockstar Intro",
@@ -79,7 +79,7 @@ gta5mods.readuserWeb('thiccy').then(async (data2) => {
 
 > User Scrap
 
-```graphql
+```javascript
 {
   status: true,
   name: "Thiccy",
