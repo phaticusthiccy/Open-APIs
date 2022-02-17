@@ -21,7 +21,7 @@ Github.github_user("username").then(async (data) => {
 
 ## 📂 Response
 
-```graphql
+```javascript
 {
   user: {
     username: 'Github username',
@@ -134,7 +134,7 @@ Ex: If ```exclusive_caption``` return as undefined, that means there is no speci
 
 ## SAMPLE RESPONSE
 
-```graphql
+```javascript
 {
   user: {
     username: 'phaticusthiccy',

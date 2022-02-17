@@ -38,7 +38,7 @@ Game.gpu_scraper.then(async (data) => {
 ## 📂 Response
 
 #### GAME SYSTEM REQUIREMENTS
-```graphql
+```javascript
 {
   game: {
     name: 'Genshin Impact',
@@ -82,7 +82,7 @@ Game.gpu_scraper.then(async (data) => {
 ```
 
 #### GPU SCRAPER
-```graphql
+```javascript
 {
   graphics_card: {
     name: 'NVIDIA GeForce GTX TITAN',

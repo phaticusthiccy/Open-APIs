@@ -26,6 +26,7 @@ Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scr
 NPM Scraper | Data fetch tool for npm users and packages.| 120-300ms | [/NpmSearch](https://github.com/phaticusthiccy/Open-APIs/tree/main/NpmSearch)|
 Github Scraper | Exclusive and advanced github profile analyzier. (With Achievements) | 500-3000ms | [/GithubScraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/GithubScraper)|
 Game System Requirements | Get GPU specs or game requirements. | 500-1900ms | [/Benchmark](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)|
+Sentence Similarity | Finds the similarity of two sentences. | 20-90ms | [/Similarity](https://github.com/phaticusthiccy/Open-APIs/tree/main/Similarity)|
 
 
 ## 
@@ -45,6 +46,8 @@ The functions you will code, must work in harmony with the existing ones. Click 
 <img src="https://i.imgur.com/pEGHVXx.gif"/>
 
 [`npm i @phaticusthiccy/open-apis`](https://www.npmjs.com/package/@phaticusthiccy/open-apis)
+
+<a href="https://www.npmjs.com/package/@phaticusthiccy/open-apis"><img src= "https://img.shields.io/npm/v/@phaticusthiccy/open-apis?color=6E3BC6&label=Open-APIs&logoColor=6E3BC6" alt="npm"/></a>
 
 #
 Windows Test: `npm test`

@@ -24,7 +24,7 @@ AI.similarity("first sentence", "second sentence").then(async (data) => {
 
 ## 📂 Response
 
-```graphql
+```javascript
 {
     _request: {
         track: [Function: track],
@@ -66,7 +66,7 @@ AI.similarity("first sentence", "second sentence").then(async (data) => {
 
 ## SAMPLE RESPONSE
 
-```graphql
+```javascript
 {
     _request: {
         track: Uint8Array(60)[
