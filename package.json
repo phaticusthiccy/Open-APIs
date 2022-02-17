@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
@@ -30,6 +30,10 @@
     "gta5",
     "mod",
     "textpro",
+    "ai",
+    "text similarity",
+    "Similarity",
+    "text diff",
     "insta api",
     "reels",
     "igtv",
@@ -45,9 +49,8 @@
     "TT-Downloader": "TT-Downloader",
     "NpmSearch": "NpmSearch",
     "dev_test": "dev_test",
-    ".hub": ".hub",
     ".vscode": ".vscode",
-    ".github": ".github",
+    "Similarity": "Similarity",
     "Benchmark": "Benchmark",
     "one-line-test": "one-line-test",
     "node_modules": "node_modules"

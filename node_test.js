@@ -18,6 +18,8 @@ var npm_test1   = require("./NpmSearch/start/startGetPackage")
 var npm_test2   = require("./NpmSearch/start/startGetUser")
 var game_test1  = require("./Benchmark/data/bench")
 var game_test2  = require("./Benchmark/data/gpu_scraper")
+var similarity  = require("./Similarity/similarity");
+
 // Extra
 var axios = require("axios")
 var fs = require("fs")
@@ -212,7 +214,8 @@ class startthetest {
                 "3) Tiktok Downloader\n"+
                 "4) TextMaker Logo Creator\n"+
                 "5) GTAV Mod Finder\n"+
-                "6) NPM Scraper\n7) Game System Requirements Scraper\n\n>>> ", async (int1) => {
+                "6) NPM Scraper\n7) Game System Requirements Scraper\n" +
+                "8) Sentence Similarity\n\n>>> ", async (int1) => {
                 if (Number(int1) == 1) {
                     console.log("Selected Instagram Module")
                     await delay(1100)
@@ -771,6 +774,35 @@ class startthetest {
                                     process.exit()
                                 }
                             })
+                        } else {
+                            chalk_animation.neon(input[8])
+                            await delay(3000)
+                            process.exit()
+                        }
+                    })
+                } else if (Number(int1) == 8) {
+                    console.log("Selected Sentence Similarity Module")
+                    await delay(1100)
+                    await exec(input[9])
+                    await delay(1100)
+                    rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can type your sentences.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int331) => {
+                        int331 = Number(int331)
+                        if (int331 == 1) {
+                            var q1;
+                            var q2;
+                            rl.question("Enter Your First Sentence >>> ", async (int826) => {
+                                q1 = int826
+                                rl.question("Enter Your Second Sentence >>> ", async (int261) => {
+                                    q2 = int261
+                                    var smmsxyysmmmxsmm = await similarity(q1, q2)
+                                    console.log(smmsxyysmmmxsmm)
+                                    process.exit()
+                                })
+                            })
+                        } else if (int331 == 2) {
+                            var smmsammmxsmm = await similarity("I am Thiccy, 17 yo from turkey.", "This is Thiccy, I am 17 :)")
+                            console.log(smmsammmxsmm)
+                            process.exit()
                         } else {
                             chalk_animation.neon(input[8])
                             await delay(3000)

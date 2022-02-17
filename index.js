@@ -58,3 +58,10 @@ exports.review_bench = require("./Benchmark/data/review");
 exports.gpu_info = require("./Benchmark/data/gpu_info");
 exports.gpu_scraper = require("./Benchmark/data/gpu_scraper");
 exports.cpu_info = require("./Benchmark/data/cpu_info");
+
+// Similarity
+exports.test_diff = require("./Similarity/diff");
+exports.editDistance = require("./Similarity/dist");
+exports.tobinary = require("./Similarity/tobin");
+exports.similarity = require("./Similarity/similarity");
+exports.SML = require("./Similarity/method");
