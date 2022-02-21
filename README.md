@@ -27,6 +27,10 @@ NPM Scraper | Data fetch tool for npm users and packages.| 120-300ms | [/NpmSear
 Github Scraper | Exclusive and advanced github profile analyzier. (With Achievements) | 500-3000ms | [/GithubScraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/GithubScraper)|
 Game System Requirements | Get GPU specs or game requirements. | 500-1900ms | [/Benchmark](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)|
 Sentence Similarity | Finds the similarity of two sentences. | 20-90ms | [/Similarity](https://github.com/phaticusthiccy/Open-APIs/tree/main/Similarity)|
+Artbreeder Scraper | A data fetch tool from artbreeder. | 150-300ms | [/Artbreeder](https://github.com/phaticusthiccy/Open-APIs/tree/main/Artbreeder)|
+|
+
+Also, you can search all APIs [in here](https://github.com/phaticusthiccy/Open-APIs/blob/main/apis.csv)
 
 
 ## 
@@ -38,7 +42,7 @@ Announcement to the developers!
 
 Before making any pr requests, make sure the tool is fully operational. Dont forget to give credit.
  
-The functions you will code, must work in harmony with the existing ones. Click here to see all functions used in this repo!
+The functions you will code, must work in harmony with the existing ones. [Click here](https://github.com/phaticusthiccy/Open-APIs/blob/main/index.js) to see all functions used in this repo!
 
 [Check Internal Tests](https://github.com/phaticusthiccy/Open-APIs/tree/main/one-line-test)
 ##

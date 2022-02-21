@@ -12,6 +12,7 @@ natdunn$ node -v
 .HEAD * => ignore
 .temp * => ignore
 .file * => ignore
+.apis * => .user .user . *
 ../ * => ignore
 .github * => ignore
 .gitignore * => ignore

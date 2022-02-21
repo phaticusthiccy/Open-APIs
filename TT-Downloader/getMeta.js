@@ -49,42 +49,50 @@ async function tpost(schema) {
         } else {
           af_url = schema.url
         }
-        var data4 = await axios.request({
-          method: "get",
-          url: "https://tiktokdownloader.one/api/v1/fetch?url=" + af_url,
-          headers: {
-            token: new_token,
-            "user-agent": tt_agent
-          }
-        })
+        var data4;
         data.server2 = {}
-        data.server2 = data4.data
-        data4.data.id = data4.data.id.toString()
-        data4.data.stats.comments = data4.data.stats.comments.toString()
-        data4.data.stats.likes = data4.data.stats.likes.toString()
-        data4.data.stats.play = data4.data.stats.play.toString()
-        data4.data.stats.shares = data4.data.stats.shares.toString()
-        var after_edit = [];
-        after_edit.push(data4.data.stats.likes)
-        after_edit.push(data4.data.stats.comments)
-        after_edit.push(data4.data.stats.play)
-        after_edit.push(data4.data.stats.shares)
-        delete data.server2.stats
-        data.server2.stats = {}
-        data.server2.stats.likes = after_edit[0]
-        data.server2.stats.comments = after_edit[1]
-        data.server2.stats.views = after_edit[2]
-        data.server2.stats.shares = after_edit[3]
-        var populerity = (after_edit[0] / after_edit[2]) * ((after_edit[3] / after_edit[1])*10)*10 * 10
-        if (populerity > 100) populerity = 100;
-        data.server2.stats.popularity = "%" + Math.floor(populerity).toString()
-        delete data.server2.share_url
-        delete data.server2.created_at
-        data.server2.created_at = data.server2.uploaded_at
-        delete data.server2.uploaded_at
-        delete data.server2.dl_count
-        delete data.server2.url_num
-        delete data.server2.url_nwm
+        try {
+          data4 = await axios.request({
+            method: "get",
+            url: "https://tiktokdownloader.one/api/v1/fetch?url=" + af_url,
+            headers: {
+              token: new_token,
+              "user-agent": tt_agent
+            }
+          })
+          data.server2 = data4.data
+          data4.data.id = data4.data.id.toString()
+          data4.data.stats.comments = data4.data.stats.comments.toString()
+          data4.data.stats.likes = data4.data.stats.likes.toString()
+          data4.data.stats.play = data4.data.stats.play.toString()
+          data4.data.stats.shares = data4.data.stats.shares.toString()
+          var after_edit = [];
+          after_edit.push(data4.data.stats.likes)
+          after_edit.push(data4.data.stats.comments)
+          after_edit.push(data4.data.stats.play)
+          after_edit.push(data4.data.stats.shares)
+          delete data.server2.stats
+          data.server2.stats = {}
+          data.server2.stats.likes = after_edit[0]
+          data.server2.stats.comments = after_edit[1]
+          data.server2.stats.views = after_edit[2]
+          data.server2.stats.shares = after_edit[3]
+          var populerity = (after_edit[0] / after_edit[2]) * ((after_edit[3] / after_edit[1])*10)*10 * 10
+          if (populerity > 100) populerity = 100;
+          data.server2.stats.popularity = "%" + Math.floor(populerity).toString()
+          if (data.server2.stats.popularity == "%NaN") {
+            data.server2.stats.popularity = "%0"
+          }
+          delete data.server2.share_url
+          delete data.server2.created_at
+          data.server2.created_at = data.server2.uploaded_at
+          delete data.server2.uploaded_at
+          delete data.server2.dl_count
+          delete data.server2.url_num
+          delete data.server2.url_nwm
+        } catch {
+          data.server2 = undefined
+        }
     }
     return data;
 }
