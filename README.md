@@ -19,7 +19,7 @@ All APIs avaliable on JavaScript Modules.
     
 API | Description | Response | Folder
 |---|---|---|---|
-TextMaker|Server fetch tool for textpro, glowtext and photooxy.| 300-2700ms |[/TextMaker](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker)|
+TextMaker|Server fetch tool for textpro and glowtext.| 300-2700ms |[/TextMaker](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker)|
 GTAV Mod Finder| A Data fetch tool from gta5mods.| 150-400ms |[/GTAVMod-Finder](https://github.com/phaticusthiccy/Open-APIs/tree/main/GTAVMod-Finder)|
 Tiktok Downloader| Tiktok video downloader.| 4900-15000ms |[/TT-Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/TT-Downloader)|
 Instagram Scraper | Instagram video, photo, reels, igtv, stories and profile scraper.| 7000-20000ms |[/InstaDownloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)|

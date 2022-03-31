@@ -1,6 +1,5 @@
 // TextMaker Functions
 exports.textpro = require("./TextMaker/lib/textmaker/textpro");
-exports.photooxy = require("./TextMaker/lib/textmaker/photooxy");
 exports.isUrl = require("./TextMaker/lib/textmaker/helper");
 exports.glowtext = require("./TextMaker/lib/textmaker/glowtxt");
 
