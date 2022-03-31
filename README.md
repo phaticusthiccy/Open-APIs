@@ -28,7 +28,7 @@ Github Scraper | Exclusive and advanced github profile analyzier. (With Achievem
 Game System Requirements | Get GPU specs or game requirements. | 500-1900ms | [/Benchmark](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)|
 Sentence Similarity | Finds the similarity of two sentences. | 20-90ms | [/Similarity](https://github.com/phaticusthiccy/Open-APIs/tree/main/Similarity)|
 Artbreeder Scraper | A data fetch tool from artbreeder. | 150-300ms | [/Artbreeder](https://github.com/phaticusthiccy/Open-APIs/tree/main/Artbreeder)|
-|
+
 
 Also, you can search all APIs [in here](https://github.com/phaticusthiccy/Open-APIs/blob/main/apis.csv)
 

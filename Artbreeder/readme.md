@@ -44,7 +44,7 @@ async function start() {
 | `new Artbreeder()` | number | how many result you want to see (1-24) | `new Artbreeder(2)`        |
 | `new Artbreeder()` | string | which [model](https://github.com/phaticusthiccy/Open-APIs/tree/main/Artbreeder#MODELS) you want to see | `new Artbreeder(2, "all")` |
 | `.search("")`      | string | search query                    | `.search("cat boy")`       |
-|
+
 
 ## MODELS
 
@@ -62,7 +62,7 @@ async function start() {
 | `album`     | album covers                                         |
 | `furry`     | furries, foxies etc.                                 |
 | `anime`     | anime portraits                                      |
-|
+
 
 ##
 

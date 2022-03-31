@@ -49,17 +49,17 @@ async function getUserMeta(username) {
             '<div class="profile-statistics__block-stat">'
         )[1].split(
             '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "")
+        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("k", "000").replace("m", "000000")
         newObj.avarage_comments = data.data.split(
             '<div class="profile-statistics__block-stat">'
         )[2].split(
             '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "")
+        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("k", "000").replace("m", "000000")
         newObj.avarage_post_time = data.data.split(
             '<div class="profile-statistics__block-stat">'
         )[3].split(
             '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("days", " days")
+        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("days", " days").replace("day", " day")
         newObj.video_percentage = data.data.split(
             '<div class="chart_labels__videos">'
         )[1].split('</span>')[1].split(" ")[0]
