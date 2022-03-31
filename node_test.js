@@ -9,7 +9,6 @@ var insta_test4 = require("./InstaDownloader/start/instagram_story")
 var github_test1 = require("./GithubScraper/start/startUserStats")
 var tiktok_test1 = require("./TT-Downloader/getMeta")
 var text_test1  = require("./TextMaker/lib/textmaker/glowtxt")
-var text_test2  = require("./TextMaker/lib/textmaker/photooxy")
 var text_test3  = require("./TextMaker/lib/textmaker/textpro")
 var gta_test0   = require("./GTAVMod-Finder/data/base")
 var gta_test1   = require("./GTAVMod-Finder/data/searchmod")
@@ -371,7 +370,7 @@ class startthetest {
                     await delay(1100)
                     await exec(input[9])
                     await delay(1100)
-                    rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m" + "\n\n\n" + "1) Textpro\n" + "2) Photooxy\n" + "3) Glowtext\n\n>>> ", async (int9) => {
+                    rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m" + "\n\n\n" + "1) Textpro\n" + "2) Glowtext\n\n>>> ", async (int9) => {
                         if (Number(int9 == 1)) {
                             rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any textpro.me url you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
                                 if (Number(int3) == 1) {
@@ -397,30 +396,6 @@ class startthetest {
                                 }
                             })
                         } else if (Number(int9 == 2)) {
-                            rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any photooxy.com url you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
-                                if (Number(int3) == 1) {
-                                    var text_url;
-                                    var text_text;
-                                    rl.question("Enter The Photooxy HTML (ex: https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html) >>> ", async (int6) => {
-                                        text_url = int6
-                                        rl.question('Enter The Text >>> ', async (int93) => {
-                                            text_text = int93
-                                            var yysyysyytxt = await text_test2(text_url, text_text)
-                                            console.log(yysyysyytxt)
-                                            process.exit()
-                                        })
-                                    })
-                                } else if (Number(int3) == 2) {
-                                    var finalttxttxtst = await text_test2("https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html", "Phaticusthiccy")
-                                    console.log(finalttxttxtst)
-                                    process.exit()
-                                } else {
-                                    chalk_animation.neon(input[8])
-                                    await delay(3000)
-                                    process.exit()
-                                }
-                            })
-                        } else if (Number(int9 == 3)) {
                             rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any parameters you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
                                 if (Number(int3) == 1) {
                                     var text1;
