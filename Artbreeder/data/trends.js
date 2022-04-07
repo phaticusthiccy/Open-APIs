@@ -8,10 +8,12 @@ async function trends_art(limit, model) {
         model = "all"
     }
     if (limit < 1) {
-        throw new Error("Search limit must be between 1-24")
+        // throw new Error("Search limit must be between 1-24")
+        limit = 1
     } 
     if (limit > 24) {
-        throw new Error("Search limit must be between 1-24")
+        // throw new Error("Search limit must be between 1-24")
+        limit = 24
     }
     if (model == "all") model = "all"
     else if (model == "general") model = "general"
@@ -24,7 +26,7 @@ async function trends_art(limit, model) {
     else if (model == "album") model = ["albums"]
     else if (model == "furry") model = ["furries"]
     else if (model == "anime") model = ["anime_portraits"]
-    else throw new Error ("Invalid Model Type. Existing Models: \n\n'all' / 'general' / 'portrait' / 'landscape' / 'building' / 'painting' / 'sci' / 'character' / 'album' / 'furry' / 'anime'")
+    else model = "all"
     var data = await axios({
         url: "https://www.artbreeder.com/trending",
         method: "post",

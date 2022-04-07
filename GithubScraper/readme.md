@@ -100,6 +100,7 @@ Github.github_user("username").then(async (data) => {
   code_snippet: {
     repository: "Committed Repository Url",
     commit_name: "Commit Name",
+    commit_date: "Commit Date",
     commit_code: "Commit Code",
     commit_file: "Path to Committed File",
     added_lines: "Total Added Lines in Commit",
@@ -141,65 +142,63 @@ Ex: If ```exclusive_caption``` return as undefined, that means there is no speci
     name: 'Thiccy',
     github_url: 'https://www.github.com/phaticusthiccy',
     bio: 'No need to lie, Who am I?',
-    avatar: 'https://github.com/phaticusthiccy.png',    
+    avatar: 'https://github.com/phaticusthiccy.png',
     creation_date: '1 year ago',
-    followers: '131',
+    followers: '150',
     following: '4',
     organizations: '0',
-    contributed_repositories: '29',
+    contributed_repositories: '27',
     hireable: 'Available for hire!',
-    repositories: '25',
-    stargazers: '293',
-    starred_repositories: '59',
+    repositories: '28',
+    stargazers: '340',
+    starred_repositories: '60',
     sponsors: '0',
     sponsoring: '0',
-    forkers: '805',
+    forkers: '1126',
     watchers: '45',
     watching_repositories: '22',
-    notable_contributions: [
-      {
-        organization_name: '@intellivoid',
-        organization_github: 'https://github.com/intellivoid',
-        organization_avatar: 'data:image/png;base64,Rw0KGgoAAAANSUhEUgAAAcwAAA'...2192 more characters
-    ]
+    notable_contributions: undefined
   },
   activity: {
-    commits: '197461',
-    reviewed_pull_requests: '14',
-    opened_pull_requests: '25',
-    opened_issues: '8',
-    issue_comments: '257'
+    commits: '204703',
+    reviewed_pull_requests: '17',
+    opened_pull_requests: '23',
+    opened_issues: '7',
+    issue_comments: '269'
   },
   repositories: {
-    total_added_lines: '157000',
-    total_removed_lines: '53200',
+    total_added_lines: '371000',
+    total_removed_lines: '56800',
     preferred_license: 'MIT',
-    relases: '10',
+    relases: '14',
     packages: '0',
-    used_space: '36.6 Mb'
+    used_space: '44.9 Mb'
   },
   languages: {
     used_repo_languages: '13',
     used_all_languages: '17',
     most_used_languages: [
-      { language: 'JavaScript', percentage: '80.02646165605016' },
-      { language: 'EmacsLisp', percentage: '5.862795647727149' },
-      { language: 'CSS', percentage: '4.59394396926407' },
-      { language: 'Python', percentage: '3.2904783459233076' },
-      { language: 'JupyterNotebook', percentage: '2.5771334954915726' },
-      { language: 'Shell', percentage: '2.0009914310908403' },
-      { language: 'HTML', percentage: '0.999262300088806' },
-      { language: 'Nix', percentage: '0.648933154364098' }
-  ]
+      { language: 'JavaScript', percentage: '81.31353277970908' },
+      { language: 'EmacsLisp', percentage: '5.484799753836235' },
+      { language: 'CSS', percentage: '4.297755587221463' },
+      { language: 'Python', percentage: '3.078329163446146' },
+      { language: 'JupyterNotebook', percentage: '2.41097626644297' },
+      { language: 'Shell', percentage: '1.8726761884178482' },
+      { language: 'HTML', percentage: '0.934836202191297' },
+      { language: 'Nix', percentage: '0.6070940587349672' }
+    ]
   },
   contributions: {
-    best_streak: '8 days',
-    per_day: { 
-      highest: '51', 
-      avarage: '2.52' 
-    }
+    best_streak: '5 days',
+    per_day: { highest: '20', avarage: '0.97' }
   },
   achievements: [
+    {
+      achievement: 'Master inspirer',
+      caption: 'Maintaining or created a repository which has been forked 1082 times',
+      class: 'Master',
+      exclusive_caption: 'Worldwide Famous Maintainer'
+    },
     {
       achievement: 'Super polyglot',
       caption: 'Using 13 different programming languages',
@@ -208,54 +207,49 @@ Ex: If ```exclusive_caption``` return as undefined, that means there is no speci
     },
     {
       achievement: 'Super gister',
-      caption: 'Published 87 gists',
+      caption: 'Published 88 gists',
       class: 'Super',
       exclusive_caption: 'Wanted Gister'
     },
     {
-      achievement: 'Super inspirer',
-      caption: 'Maintaining or created a repository which has been forked 776 times',
-      class: 'Super',
-      exclusive_caption: 'Knowledgeable Inspirer'
-    },
-    {
       achievement: 'Super deployer',
-      caption: 'Repositories have been deployed 670 times',
+      caption: 'Repositories have been deployed 672 times',
       class: 'Super',
       exclusive_caption: 'Way to King!'
     },
     {
       achievement: 'Great developer',
-      caption: 'Published 25 public repositories',
-      class: 'Graet',
-      exclusive_caption: undefined
-    },
-    {
-      achievement: 'Influencer',
-      caption: 'Followed by 131 users',
-      class: 'Newbie',
+      caption: 'Published 28 public repositories',
+      class: 'Great',
       exclusive_caption: undefined
     },
     {
       achievement: 'Forker',
-      caption: 'Forked 3 public repositories',
+      caption: 'Forked 4 public repositories',
+      class: 'Newbie',
+      exclusive_caption: undefined
+    },
+    {
+      achievement: 'Influencer',
+      caption: 'Followed by 150 users',
       class: 'Newbie',
       exclusive_caption: undefined
     },
     {
       achievement: 'Stargazer',
-      caption: 'Starred 59 repositories',
+      caption: 'Starred 60 repositories',
       class: 'Newbie',
       exclusive_caption: undefined
     }
   ],
   code_snippet: {
-    repository: "https://www.github.com/phaticusthiccy/Open-APIs",
-    commit_name: "New Version Coming",
-    commit_code: "ef65bc18",
-    commit_file: "./index.js",
-    added_lines: "30",
-    removed_lines: "5"
+    repository: 'https://www.github.com/phaticusthiccy/Open-APIs',
+    commit_name: 'Internal Test',
+    commit_date: '1 Apr 2022, 00:17:10',
+    commit_code: 'd3ad138a',
+    commit_file: 'node_modules/ajv/lib/compile/equal.js',
+    added_lines: '5',
+    removed_lines: '0'
   }
 }
 ```
