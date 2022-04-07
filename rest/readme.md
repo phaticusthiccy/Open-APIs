@@ -1,6 +1,6 @@
 ## Open APIs Rest Documention
 
-## Textpro
+## [Textpro](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker)
 
 Name: `Textpro`
 
@@ -15,7 +15,7 @@ Example: `https://open-apis-rest.up.railway.app/api/textpro?url=https://textpro.
 
 &text2: `Second Text (if required)`
 
-## Glowtext
+## [Glowtext](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker)
 
 Name: `Glowtext`
 
@@ -30,7 +30,7 @@ Example: `https://open-apis-rest.up.railway.app/api/glowtext?text=Atticus&text2=
 
 &text3: `Optional 3nd Text`
 
-## GTA V Mod Finder
+## [GTA V Mod Finder](https://github.com/phaticusthiccy/Open-APIs/tree/main/GTAVMod-Finder)
 
 Name: `GTA V Mod Finder`
 
@@ -41,7 +41,7 @@ Example: `https://open-apis-rest.up.railway.app/api/gtavmods?query=Neon Intro`
 
 ?query: `Mod Name`
 
-## GTA V Mod Author Finder
+## [GTA V Mod Author Finder](https://github.com/phaticusthiccy/Open-APIs/tree/main/GTAVMod-Finder)
 
 Name: `GTA V Mod Author Finder`
 
@@ -52,7 +52,7 @@ Example: `https://open-apis-rest.up.railway.app/api/gtavmodowner?query=Thiccy`
 
 ?query: `User Name`
 
-## Tiktok Downloader
+## [Tiktok Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/TT-Downloader)
 
 Name: `Tiktok Downloader`
 
@@ -62,7 +62,7 @@ Example: `https://open-apis-rest.up.railway.app/api/tiktok?url=https://vm.tiktok
 
 
 ?url: `Tiktok Video URL`
-## Instagram Post & IGTV Downloader
+## [Instagram Post & IGTV Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)
 
 Name: `Instagram Post & IGTV Downloader`
 
@@ -72,7 +72,7 @@ Example: `https://open-apis-rest.up.railway.app/api/instapost?url=https://www.in
 
 
 ?url: `Post or IGTV URL`
-## Instagram Reel Downloader
+## [Instagram Reel Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)
 
 Name: `Instagram Reel Downloader`
 
@@ -82,7 +82,7 @@ Example: `https://open-apis-rest.up.railway.app/api/instareel?url=https://www.in
 
 
 ?url: `Reel URL`
-## Instagram Story Downloader
+## [Instagram Story Downloader](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)
 
 Name: `Instagram Story Downloader`
 
@@ -92,7 +92,7 @@ Example: `https://open-apis-rest.up.railway.app/api/instastory?username=instagra
 
 
 ?username: `Username`
-## Instagram Stalker
+## [Instagram Stalker](https://github.com/phaticusthiccy/Open-APIs/tree/main/InstaDownloader)
 
 Name: `Instagram Stalker`
 
@@ -103,7 +103,7 @@ Example: `https://open-apis-rest.up.railway.app/api/instastalk?username=nisneter
 
 ?username: `Username`
 
-## NPM User Search
+## [NPM User Search](https://github.com/phaticusthiccy/Open-APIs/tree/main/NpmSearch)
 
 Name: `NPM User Search`
 
@@ -113,7 +113,7 @@ Example: `ttps://open-apis-rest.up.railway.app/api/npmuser?username=phaticusthic
 
 
 ?username: `NPM Username`
-## NPM Package Search
+## [NPM Package Search](https://github.com/phaticusthiccy/Open-APIs/tree/main/NpmSearch)
 
 Name: `NPM Package Search`
 
@@ -127,7 +127,7 @@ Example: `https://open-apis-rest.up.railway.app/api/npmpackage?query=open apis&r
 &result: `result count`
 
 &info: `Optional More Information`
-## Github Profile Analyze
+## [Github Profile Analyze](https://github.com/phaticusthiccy/Open-APIs/tree/main/GithubScraper)
 
 Name: `Github Profile Analyzer`
 
@@ -137,7 +137,7 @@ Example: `https://open-apis-rest.up.railway.app/api/github?username=phaticusthic
 
 
 ?username: `Github Username`
-## GPU Scraper
+## [GPU Scraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)
 
 Name: `GPU Scraper`
 
@@ -146,7 +146,7 @@ URL: `https://open-apis-rest.up.railway.app/api/gpu`
 Example: `https://open-apis-rest.up.railway.app/api/gpu?query=rtx 3080`
 
 ?query: `GPU Name`
-## Game System Requirements
+## [Game System Requirements](https://github.com/phaticusthiccy/Open-APIs/tree/main/Benchmark)
 
 Name: `Game System Requirements`
 
@@ -156,7 +156,7 @@ Example: `https://open-apis-rest.up.railway.app/api/game_specs?game=valorant`
 
 ?game: `Game Name`
 
-## Sentence Similarity
+## [Sentence Similarity](https://github.com/phaticusthiccy/Open-APIs/tree/main/Similarity)
 
 Name: `Sentence Similarity`
 
@@ -167,7 +167,7 @@ Example: `https://open-apis-rest.up.railway.app/api/similarity?text1=I am Thiccy
 ?text1: `First Sentence`
 
 &text2: `Second Sentence`
-## Artbreeder Scraper
+## [Artbreeder Scraper](https://github.com/phaticusthiccy/Open-APIs/tree/main/Artbreeder)
 
 Name: `Artbreeder Scraper`
 
