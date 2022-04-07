@@ -125,6 +125,7 @@ async function getGame(Query) {
         throw new Error ("API Error, Report This Issue.")
     }
     var splitted;
+    splitted = payload
     try {
         var matches = splitted.split("<td class='tbl'>")[1].split("<a href='")[1].split("'")[0]
         splitted = payload.split("&nbsp;")[1]

@@ -9,7 +9,6 @@ var insta_test4 = require("./InstaDownloader/start/instagram_story")
 var github_test1 = require("./GithubScraper/start/startUserStats")
 var tiktok_test1 = require("./TT-Downloader/getMeta")
 var text_test1  = require("./TextMaker/lib/textmaker/glowtxt")
-var text_test2  = require("./TextMaker/lib/textmaker/photooxy")
 var text_test3  = require("./TextMaker/lib/textmaker/textpro")
 var gta_test0   = require("./GTAVMod-Finder/data/base")
 var gta_test1   = require("./GTAVMod-Finder/data/searchmod")
@@ -19,6 +18,7 @@ var npm_test2   = require("./NpmSearch/start/startGetUser")
 var game_test1  = require("./Benchmark/data/bench")
 var game_test2  = require("./Benchmark/data/gpu_scraper")
 var similarity  = require("./Similarity/similarity");
+var artbreeder  = require("./Artbreeder/start/start");
 
 // Extra
 var axios = require("axios")
@@ -74,7 +74,7 @@ async function getVers() {
 \u001b[33m│   \u001b[32mChangelog: \u001b[36mhttps://github.com/phaticusthiccy/Open-APIs/releases  \u001b[33m│
 \u001b[33m│               \u001b[32mRun \u001b[33;1mnpm install \u001b[32mto install depencies                 \u001b[33m│
 \u001b[33m│                                                                    │
-\u001b[33m│               \u001b[32mRun \u001b[33;1mnpm dev \u001b[32mto start developer mode                  \u001b[33m│
+\u001b[33m│               \u001b[32mRun \u001b[33;1mnpm run dev \u001b[32mto start developer mode              \u001b[33m│
 \u001b[33m│                                                                    │
 \u001b[33m╰────────────────────────────────────────────────────────────────────╯\u001b[0m
 `
@@ -215,7 +215,8 @@ class startthetest {
                 "4) TextMaker Logo Creator\n"+
                 "5) GTAV Mod Finder\n"+
                 "6) NPM Scraper\n7) Game System Requirements Scraper\n" +
-                "8) Sentence Similarity\n\n>>> ", async (int1) => {
+                "8) Sentence Similarity\n" +
+                "9) Artbreeder Scraper\n\n>>> ", async (int1) => {
                 if (Number(int1) == 1) {
                     console.log("Selected Instagram Module")
                     await delay(1100)
@@ -369,7 +370,7 @@ class startthetest {
                     await delay(1100)
                     await exec(input[9])
                     await delay(1100)
-                    rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m" + "\n\n\n" + "1) Textpro\n" + "2) Photooxy\n" + "3) Glowtext\n\n>>> ", async (int9) => {
+                    rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m" + "\n\n\n" + "1) Textpro\n" + "2) Glowtext\n\n>>> ", async (int9) => {
                         if (Number(int9 == 1)) {
                             rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any textpro.me url you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
                                 if (Number(int3) == 1) {
@@ -395,30 +396,6 @@ class startthetest {
                                 }
                             })
                         } else if (Number(int9 == 2)) {
-                            rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any photooxy.com url you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
-                                if (Number(int3) == 1) {
-                                    var text_url;
-                                    var text_text;
-                                    rl.question("Enter The Photooxy HTML (ex: https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html) >>> ", async (int6) => {
-                                        text_url = int6
-                                        rl.question('Enter The Text >>> ', async (int93) => {
-                                            text_text = int93
-                                            var yysyysyytxt = await text_test2(text_url, text_text)
-                                            console.log(yysyysyytxt)
-                                            process.exit()
-                                        })
-                                    })
-                                } else if (Number(int3) == 2) {
-                                    var finalttxttxtst = await text_test2("https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html", "Phaticusthiccy")
-                                    console.log(finalttxttxtst)
-                                    process.exit()
-                                } else {
-                                    chalk_animation.neon(input[8])
-                                    await delay(3000)
-                                    process.exit()
-                                }
-                            })
-                        } else if (Number(int9 == 3)) {
                             rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can use any parameters you want.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int3) => {
                                 if (Number(int3) == 1) {
                                     var text1;
@@ -806,6 +783,170 @@ class startthetest {
                         } else {
                             chalk_animation.neon(input[8])
                             await delay(3000)
+                            process.exit()
+                        }
+                    })
+                } else if (Number(int1) == 9) {
+                    console.log("Selected Artbreeder Scraper Module")
+                    await delay(1100)
+                    await exec(input[9])
+                    await delay(1100)
+                    rl.question("\u001b[40;1mPlease, Select The Worktype\u001b[0m" + "\n\n\n" + "1) Manuel // If you choose this, you can chooice your paramaters.\n" + "2) Auto // If you choose this, script will work automaticly.\n\n>>> ", async (int331) => {
+                        int331 = Number(int331)
+                        if (int331 == 1) {
+                            rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m \n\n\n1) Random Art \n2) Trends \n3) Recent \n4) Search by Words\n\n>>> ", async (int62) => {
+                                int62 = Number(int62)
+                                if (int62 == 1) {
+                                    rl.question("How Many Result You Want to See (1-24) >>> ", async (int938) => {
+                                        int938 = Number(int938)
+                                        var limit = 0
+                                        if (int938 < 1) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        if (int938 > 24) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        limit = int938
+                                        rl.question("Which Model You Want to See \n\nall - general - portrait - landscape - building - painting - sci - character - album - furry - anime \n\n>>> ", async (int729) => {
+                                            var data = "all - general - portrait - landscape - building - painting - sci - character - album - furry - anime"
+                                            if (!data.includes(int729)) {
+                                                chalk_animation.neon("Please Type Only Exisiting Models")
+                                                await delay(3000)
+                                                process.exit()
+                                            }
+                                            var Art = new artbreeder(limit, int729)
+                                            var smmsammmxssassmm = await Art.random()
+                                            console.log(smmsammmxssassmm)
+                                            process.exit()
+                                        })
+                                    })
+                                } else if (int62 == 2) {
+                                    rl.question("How Many Result You Want to See (1-24) >>> ", async (int938) => {
+                                        int938 = Number(int938)
+                                        var limit = 0
+                                        if (int938 < 1) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        if (int938 > 24) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        limit = int938
+                                        rl.question("Which Model You Want to See \n\nall - general - portrait - landscape - building - painting - sci - character - album - furry - anime \n\n>>> ", async (int729) => {
+                                            var data = "all - general - portrait - landscape - building - painting - sci - character - album - furry - anime"
+                                            if (!data.includes(int729)) {
+                                                chalk_animation.neon("Please Type Only Exisiting Models")
+                                                await delay(3000)
+                                                process.exit()
+                                            }
+                                            var Art = new artbreeder(limit, int729)
+                                            var smmsammmxssassmm = await Art.trend()
+                                            console.log(smmsammmxssassmm)
+                                            process.exit()
+                                        })
+                                    })
+                                } else if (int62 == 3) {
+                                    rl.question("How Many Result You Want to See (1-24) >>> ", async (int938) => {
+                                        int938 = Number(int938)
+                                        var limit = 0
+                                        if (int938 < 1) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        if (int938 > 24) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        limit = int938
+                                        rl.question("Which Model You Want to See \n\nall - general - portrait - landscape - building - painting - sci - character - album - furry - anime \n\n>>> ", async (int729) => {
+                                            var data = "all - general - portrait - landscape - building - painting - sci - character - album - furry - anime"
+                                            if (!data.includes(int729)) {
+                                                chalk_animation.neon("Please Type Only Exisiting Models")
+                                                await delay(3000)
+                                                process.exit()
+                                            }
+                                            var Art = new artbreeder(limit, int729)
+                                            var smmsammmxssassmm = await Art.recent()
+                                            console.log(smmsammmxssassmm)
+                                            process.exit()
+                                        })
+                                    })
+                                } else if (int62 == 4) {
+                                    rl.question("How Many Result You Want to See (1-24) >>> ", async (int938) => {
+                                        int938 = Number(int938)
+                                        var limit = 0
+                                        var model = ""
+                                        if (int938 < 1) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        if (int938 > 24) {
+                                            chalk_animation.neon("This Paramater Must be Between 1 and 24")
+                                            await delay(3000)
+                                            process.exit()
+                                        }
+                                        limit = int938
+                                        rl.question("Which Model You Want to See \n\nall - general - portrait - landscape - building - painting - sci - character - album - furry - anime \n\n>>> ", async (int729) => {
+                                            var data = "all - general - portrait - landscape - building - painting - sci - character - album - furry - anime"
+                                            if (!data.includes(int729)) {
+                                                chalk_animation.neon("Please Type Only Exisiting Models")
+                                                await delay(3000)
+                                                process.exit()
+                                            }
+                                            model = int729
+                                            rl.question("Enter The Search Query >>> ", async (int282) => {
+                                                var Art = new artbreeder(limit, model)
+                                                var smmsammmxssaadssmm = await Art.search(int282)
+                                                console.log(smmsammmxssaadssmm)
+                                                process.exit()
+                                            })
+                                        })
+                                    })
+                                } else {
+                                    chalk_animation.neon(input[8])
+                                    await delay(3000)
+                                    process.exit()   
+                                }
+                            })
+                        } else if (int331 == 2) {
+                            rl.question("\u001b[40;1mPlease, Select The Service\u001b[0m \n\n\n1) Random Art \n2) Trends \n3) Recent \n4) Search by Words\n\n>>> ", async (int62) => {
+                                int62 = Number(int62)
+                                var art = new artbreeder(3, "all")
+                                if (int62 == 1) {
+                                    var arts = await art.random()
+                                    console.log(arts)
+                                    process.exit()
+                                } else if (int62 == 2) {
+                                    var arts = await art.trend()
+                                    console.log(arts)
+                                    process.exit()
+                                } else if (int62 == 3) {
+                                    var arts = await art.recent()
+                                    console.log(arts)
+                                    process.exit()
+                                } else if (int62 == 4) {
+                                    var arts = await art.search("anime")
+                                    console.log(arts)
+                                    process.exit()
+                                } else {
+                                    chalk_animation.neon(input[8])
+                                    await delay(3000)
+                                    process.exit()
+                                }
+                            })
+                        } else {
+                            chalk_animation.neon(input[8])
+                            await delay(2500)
                             process.exit()
                         }
                     })

@@ -1,8 +1,7 @@
 // TextMaker Functions
 exports.textpro = require("./TextMaker/lib/textmaker/textpro");
-exports.photooxy = require("./TextMaker/lib/textmaker/photooxy");
 exports.isUrl = require("./TextMaker/lib/textmaker/helper");
-exports.glowtext = require("./TextMaker/lib/textmaker/glowtxt")
+exports.glowtext = require("./TextMaker/lib/textmaker/glowtxt");
 
 // GTAVMod-Finder Functions
 exports.base = require("./GTAVMod-Finder/data/base");
@@ -52,7 +51,7 @@ exports.getVram = require("./Benchmark/data/vram");
 exports.getOs = require("./Benchmark/data/os");
 exports.getRam = require("./Benchmark/data/ram");
 exports.bench = require("./Benchmark/data/bench");
-exports.system_requirements = require("./Benchmark/data/bench")
+exports.system_requirements = require("./Benchmark/data/bench");
 exports.banner = require("./Benchmark/data/banner");
 exports.review_bench = require("./Benchmark/data/review");
 exports.gpu_info = require("./Benchmark/data/gpu_info");
@@ -65,3 +64,10 @@ exports.editDistance = require("./Similarity/dist");
 exports.tobinary = require("./Similarity/tobin");
 exports.similarity = require("./Similarity/similarity");
 exports.SML = require("./Similarity/method");
+
+// Artbreeder
+exports.trends_art = require("./Artbreeder/data/trends");
+exports.random_art = require("./Artbreeder/data/random");
+exports.recent_art = require("./Artbreeder/data/recent");
+exports.search_art = require("./Artbreeder/data/search");
+exports.Artbreeder = require("./Artbreeder/start/start");

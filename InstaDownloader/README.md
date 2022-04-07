@@ -89,30 +89,14 @@ instagram.insta_profile("username").then(async (data) => {
 #### STORY DOWNLOADER
 ```javascript
 {
-    id: user id,
-    username: 'username',
-    name: 'name',
-    bio: 'biograhpy',
-    website: 'website url',
-    avatar: 'sd profile picture',
-    followers: followers,
-    following: following,
-    post_count: media count,
-    story_count: stories count,
-    stories: [
-        {
-            type: 'photo',
-            url: 'download url'
-        },
-        {
-            type: 'video',
-            url: 'download url'
-        },
-        {
-            ... (type = "photo" / "video")
-            ... (url = "download url" )
-        }
-    ]
+   data: [
+      'https://www.storydownloader.org/d.php?h=788361735176296', // Video
+      'https://www.storydownloader.org/d.php?h=274995514191688', // Video
+      'https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/277319635_716980279550355_8850489061613463665_n.jpg?se=8&stp=dst-jpg_e35&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=8azzPBHr00AAX8pYXFh&edm=ANmP7GQBAAAA&ccb=7-4&ig_cache_key=MjgwNjMwMTA1MzQzMzEwMDUyOQ%3D%3D.2-ccb7-4&oh=00_AT-QXbGBDA0kHjjv9G2IqMQR90lOGeguoMnyVOPHoV6GjQ&oe=62488E1E&_nc_sid=276363&dl=1', // Photo
+      'https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/277654901_7231415706929762_1707475140100892146_n.jpg?se=8&stp=dst-jpg_e35&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0DDpTDjcaL8AX_On5oW&edm=ANmP7GQBAAAA&ccb=7-4&ig_cache_key=MjgwNjI3NDE4NjIwNjI2NjUzMw%3D%3D.2-ccb7-4&oh=00_AT8spDW3wFV1i4y8K6fr0EizKcUIsuSjGeArUvi9tdd35A&oe=62484012&_nc_sid=276363&dl=1' // Photo
+    ],
+    author: 'https://github.com/phaticusthiccy'
+  }
 }
 ```
 

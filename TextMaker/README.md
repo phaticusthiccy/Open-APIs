@@ -1,4 +1,4 @@
-# Textpro - Photooxy - TextGlow Unlimited API
+# Textpro - TextGlow Unlimited API
 
 ##
 This api can handle thousands of requests. Also its completely free
@@ -55,60 +55,7 @@ thiccysapi.textpro("https://textpro.me/create-realistic-vintage-style-light-bulb
 });
 ```
 
-#### Interest More Textpro Examples? Check [Here!]()
-
-##
-
-### Photooxy 1
-
-```js
-const thiccysapi = require('@phaticusthiccy/open-apis'); // Import NPM Package
-
-thiccysapi.photooxy("<photooxy_html>",
-    // "Message One" (One Message)
-    // ["Message One"], ["Message Two"] (Two Message)
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-### Photooxy 2 ( Real Usage With One Message )
-
-```js
-const thiccysapi = require('@phaticusthiccy/open-apis');
-
-thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/shadow-text-effect-in-the-sky-394.html",
-    "Phaticusthiccy"
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-### Photooxy 3 ( Real Usage With Two Message )
-
-```js
-const thiccysapi = require('@phaticusthiccy/open-apis');
-
-thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/make-tik-tok-text-effect-375.html",
-    ["Developer"], ["Phaticusthiccy"] 
-    ).then(async (data) => { 
-      try { 
-          console.log(data)
-      } catch(err) { 
-          console.log(err)
-      } 
-});
-```
-
-#### Interest More Photooxy Examples? Check [Here!]()
+#### Interest More Textpro Examples? Check [Here!](https://github.com/phaticusthiccy/Open-APIs/tree/main/TextMaker/textpro-examples)
 
 ##
 

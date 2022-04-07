@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
@@ -9,6 +9,8 @@
     "tool",
     "free",
     "text",
+    "artbreeder",
+    "ganbreeder",
     "maker",
     "textmaker",
     "instagram",
@@ -51,6 +53,7 @@
     "dev_test": "dev_test",
     ".vscode": ".vscode",
     "Similarity": "Similarity",
+    "Artbreeder": "Artbreeder",
     "Benchmark": "Benchmark",
     "one-line-test": "one-line-test",
     "node_modules": "node_modules"
@@ -78,7 +81,8 @@
     "cookie": "^0.4.2",
     "form-data": "^4.0.0",
     "moment-timezone": "^0.5.33",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "bugs": {

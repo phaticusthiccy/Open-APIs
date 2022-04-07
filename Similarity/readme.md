@@ -27,31 +27,31 @@ AI.similarity("first sentence", "second sentence").then(async (data) => {
 ```javascript
 {
     _request: {
-        track: [Function: track],
+        track: [Function: track], // Encoded Query1 and Query2 Data
         values: {
             __init_one: [Function: __init_one],
             __init_two: [Function: __init_two],
-            __init_core_main: [Function: __init_core_main],
-            __init_core_side: [Function: __init_core_side]
+            __init_core_main: [Function: __init_core_main], // Strees Values for Query1
+            __init_core_side: [Function: __init_core_side] // Strees Values for Query2 
         },
         binary: { 
-            core1: [Function: core1], 
-            core2: [Function: core2] 
+            core1: [Function: core1], // Binary Data for Query1 
+            core2: [Function: core2] // Binary Data for Query2
         },
-        method: '\\\\.\\nul'
+        method: '\\\\.\\nul' // devnull
     },
-    similarity: similarity number,
+    similarity: 85, // Similarity number,
     similarity_percentage: 'similarity percentage',
     init1: ["first sentence's arry"],
     init2: ["second sentence's arry"],
     inputs: {
         query1: { 
             text: 'first sentence', 
-            length: first sentence length 
+            length: 1 // First sentence length 
         },
         query2: { 
             text: 'second sentence', 
-            length: second sentence length 
+            length: 2 // Second sentence length 
         }
     },
     emphasis: {
@@ -59,7 +59,7 @@ AI.similarity("first sentence", "second sentence").then(async (data) => {
         filtered: ["values which more than 0.7 similarity percentage"],
         un_filtered: ["all arrays with all similarity percentages"]
     },
-    optimum_value_count: number of common arrays processed
+    optimum_value_count: 0 // Number of common arrays processed
 }
 ```
 #

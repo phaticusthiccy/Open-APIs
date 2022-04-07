@@ -60,3 +60,4 @@ typings/
 .next
 
 # Extra
+.vercel

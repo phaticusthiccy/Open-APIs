@@ -38,34 +38,55 @@ async function getUserMeta(username) {
         if_rate = false
     }
     if (if_rate) {
-        newObj.popularity = data.data.split(
-            '<canvas id="chartjs_circle"'
-        )[1].split(
-            '<span>'
-        )[1].split(
-            '<'
-        )[0]
-        newObj.avarage_likes = data.data.split(
-            '<div class="profile-statistics__block-stat">'
-        )[1].split(
-            '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "")
-        newObj.avarage_comments = data.data.split(
-            '<div class="profile-statistics__block-stat">'
-        )[2].split(
-            '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "")
-        newObj.avarage_post_time = data.data.split(
-            '<div class="profile-statistics__block-stat">'
-        )[3].split(
-            '</div>'
-        )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("days", " days")
-        newObj.video_percentage = data.data.split(
-            '<div class="chart_labels__videos">'
-        )[1].split('</span>')[1].split(" ")[0]
-        newObj.photo_percentage = data.data.split(
-            '<div class="chart_labels__photos">'
-        )[1].split('</span>')[1].split(" ")[0]
+        try {
+            newObj.popularity = data.data.split(
+                '<canvas id="chartjs_circle"'
+            )[1].split(
+                '<span>'
+            )[1].split(
+                '<'
+            )[0]
+        } catch {
+            newObj.popularity = "0%"
+        }
+        try {
+            newObj.avarage_likes = data.data.split(
+                '<div class="profile-statistics__block-stat">'
+            )[1].split(
+                '</div>'
+            )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("k", "000").replace("m", "000000")
+        } catch {
+            newObj.avarage_likes = "0"
+        }
+        try {
+            newObj.avarage_comments = data.data.split(
+                '<div class="profile-statistics__block-stat">'
+            )[2].split(
+                '</div>'
+            )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace("k", "000").replace("m", "000000")
+        } catch {
+            newObj.avarage_comments = "0"
+        }
+        try {
+            newObj.avarage_post_time = data.data.split(
+                '<div class="profile-statistics__block-stat">'
+            )[3].split(
+                '</div>'
+            )[0].replace(/ /gi, "").replace(/\r\n/gi, "").replace(/ /g, "").replace("day", " day")
+        } catch {
+            newObj.avarage_post_time = "0 day"
+        }
+        try {
+            newObj.video_percentage = data.data.split(
+                '<div class="chart_labels__videos">'
+            )[1].split('</span>')[1].split(" ")[0]
+            newObj.photo_percentage = data.data.split(
+                '<div class="chart_labels__photos">'
+            )[1].split('</span>')[1].split(" ")[0]
+        } catch {
+            newObj.video_percentage = "0%"
+            newObj.photo_percentage = "0%"
+        }
     }
     return newObj
 }
