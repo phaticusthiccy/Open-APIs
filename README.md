@@ -30,7 +30,9 @@ Sentence Similarity | Finds the similarity of two sentences. | 20-90ms | [/Simil
 Artbreeder Scraper | A data fetch tool from artbreeder. | 150-300ms | [/Artbreeder](https://github.com/phaticusthiccy/Open-APIs/tree/main/Artbreeder)|
 
 
-Also, you can search all APIs [in here](https://github.com/phaticusthiccy/Open-APIs/blob/main/apis.csv)
+You can search all APIs [in here](https://github.com/phaticusthiccy/Open-APIs/blob/main/apis.csv)
+
+Check the New REST API >> [Open APIs REST](https://github.com/phaticusthiccy/Open-APIs/tree/main/rest) <<
 
 
 ## 
