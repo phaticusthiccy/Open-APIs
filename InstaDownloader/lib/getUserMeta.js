@@ -18,13 +18,9 @@ async function getUserMeta(username) {
     newObj.bio = data.data.split(
         '<div class="profile-description">'
     )[1].split('</div>')[0].replace("\r\n", "").replace('            ', "").replace('        ', "")
-    newObj.post_count = Number(data.data.split('<span class="black-box">')[1].split(
-        'Posts'
-    )[0]).toString()
-    newObj.followers = Number(data.data.split('<span data-followers="')[1].split('"')[0]).toString()
-    newObj.following = Number(
-        data.data.split('<span class="bold"><span>')[1].split('<')[0]
-    ).toString()
+    newObj.post_count = data.data.split('<span class="black-box">')[1].split('Posts')[0].toString().replace(/,/gi, "").replace(/ /gi, "")
+    newObj.followers = data.data.split('<span data-followers="')[1].split('"')[0].toString().replace(/,/gi, "").replace(/ /gi, "")
+    newObj.following = data.data.split('<span class="bold"><span>')[1].split('<')[0].toString().replace(/,/gi, "").replace(/ /gi, "")
     newObj.id = Number(
         urlGet.split("profile")[1].split(
             '/'

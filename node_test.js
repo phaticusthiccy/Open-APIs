@@ -356,7 +356,7 @@ class startthetest {
                                 process.exit()
                             })
                         } else if (Number(int3) == 2) {
-                            var ssastt = await tiktok_test1("https://vm.tiktok.com/ZSes8Dn8V/")
+                            var ssastt = await tiktok_test1("https://www.tiktok.com/@atixealex/video/7078604945766812929?is_from_webapp=1&sender_device=pc&web_id=7016736013771949569")
                             console.log(ssastt)
                             process.exit()
                         } else {
