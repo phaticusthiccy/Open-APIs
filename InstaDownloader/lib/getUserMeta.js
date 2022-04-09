@@ -87,7 +87,3 @@ async function getUserMeta(username) {
     return newObj
 }
 module.exports = getUserMeta;
-
-getUserMeta("lilmiquela").then(async (a) => {
-    console.log(a)
-})
