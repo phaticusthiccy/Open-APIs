@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.8.0",
+  "version": "1.8.2",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
@@ -56,7 +56,8 @@
     "Artbreeder": "Artbreeder",
     "Benchmark": "Benchmark",
     "one-line-test": "one-line-test",
-    "node_modules": "node_modules"
+    "node_modules": "node_modules",
+    "rest": "rest"
   },
   "scripts": {
     "test": "npm i && cls && node node_test",
