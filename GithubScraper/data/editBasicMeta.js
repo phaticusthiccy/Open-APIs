@@ -774,7 +774,3 @@ async function editBasicMetaGithub(name) {
 
 } 
 module.exports = editBasicMetaGithub;
-
-editBasicMetaGithub("yusufusta").then(async (ı) => {
-    console.log(ı)
-})
