@@ -9,14 +9,14 @@ This module can find the similarity of two sentences with binary system.
 ```js
 const AI = require("@phaticusthiccy/open-apis");
 
-async function start() {
-    var data = await AI.similarity("first sentence", "second sentence")
+function start() {
+    var data = AI.similarity("first sentence", "second sentence")
     console.log(data)
 }
 
 // Outside of Async Function
-AI.similarity("first sentence", "second sentence").then(async (data) => {
-    console.log(data)
+var data = AI.similarity("first sentence", "second sentence")
+console.log(data)
 })
 ```
 
