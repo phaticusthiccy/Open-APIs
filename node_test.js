@@ -771,13 +771,13 @@ class startthetest {
                                 q1 = int826
                                 rl.question("Enter Your Second Sentence >>> ", async (int261) => {
                                     q2 = int261
-                                    var smmsxyysmmmxsmm = await similarity(q1, q2)
+                                    var smmsxyysmmmxsmm = similarity(q1, q2)
                                     console.log(smmsxyysmmmxsmm)
                                     process.exit()
                                 })
                             })
                         } else if (int331 == 2) {
-                            var smmsammmxsmm = await similarity("I am Thiccy, 17 yo from turkey.", "This is Thiccy, I am 17 :)")
+                            var smmsammmxsmm = similarity("I am Thiccy, 17 yo from turkey.", "This is Thiccy, I am 17 :)")
                             console.log(smmsammmxsmm)
                             process.exit()
                         } else {

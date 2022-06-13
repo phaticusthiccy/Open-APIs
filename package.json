@@ -1,6 +1,6 @@
 {
   "name": "@phaticusthiccy/open-apis",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "description": "Public API Tools. Completely Unlimited Free APIs.",
   "main": "./index.js",
   "keywords": [
