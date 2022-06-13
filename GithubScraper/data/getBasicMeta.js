@@ -28,4 +28,5 @@ async function getBasicMetaGithub(name) {
     data = payload.data;
     return data;
 }
+
 module.exports = getBasicMetaGithub;

@@ -37,7 +37,7 @@ class emphasis {
     }
 }
 // function strt (a, b, c) { return } //
-async function similarity(q1, q2) {
+function similarity(q1, q2) {
     if (typeof q1 !== "string") {
         if (typeof q2 !== "string") {
             if (typeof q1 == "object") throw new TypeError ("Input 1 Must Be String, Not Object")

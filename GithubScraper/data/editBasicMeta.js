@@ -770,6 +770,19 @@ async function editBasicMetaGithub(name) {
         data.code_snippet.added_lines = payload.split('<section class="largeable-column-fields">')[3].split('<span class="code">')[3].split('additions">++')[1].split('<')[0]
         data.code_snippet.removed_lines = payload.split('<section class="largeable-column-fields">')[3].split('<span class="code">')[3].split('deletions">--')[1].split('<')[0]
     }
+    data.languages.most_used_languages.map((Element) => {
+        if (Element.language.length > 25) {
+            delete Element.language
+            delete Element.percentage
+            delete Element;
+        }
+    });
+    var blob = []
+    data.languages.most_used_languages.filter(element3 => {
+        if (Object.keys(element3).length == 0) {
+            delete element3
+        }
+    });
     return data;
 
 } 
