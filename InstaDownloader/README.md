@@ -70,19 +70,31 @@ instagram.insta_profile("username").then(async (data) => {
     },
     post2: {
         url: 'download url',
-        type: 'media type' 
+        type: 'media type' // can be "jpg", "png", "mp4" or "webm"
     },
     post3: {
-        ... (type = "jpg / png / mp4 / webm")
+        ...
     }
 }
 ``` 
 
 #### REEL DOWNLOADER
-```javascript
+```es6
 {
-    expires: 'Unlimited',
-    url: 'download url'
+  expires: 'Unlimited',
+  data: {
+    url: 'Reel Video Download URL',
+    user: {
+      id: 'user id',
+      name: 'user name',
+      username: 'username',
+      pic: 'user profile picture',
+      follower: number // follower count
+    },
+    likes: number, // Reel likes
+    views: number, // Reel views
+    comments: number // Reel comments
+  }
 }
 ```
 

@@ -51,7 +51,15 @@ function _0x3e54(_0x567216, _0x487bca) {
         return _0x5c99cb;
     }, _0x3e54(_0x567216, _0x487bca);
 }
-
+async function lib_reels(url) {
+    var { data } = await axios.post("https://reelit.io/api/fetch", {
+        url: url,
+        headers: {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+        }
+    })
+    return data;
+}
 function _0x4f1b() {
     var _0x33e628 = ['12TfJJTk', 'RWFxx', '3040330DrJZmm', '11TZnLwN', 'https://in', 's-video-do', '2185134QCGThL', '5kPZJAi', '567951TyWlGh', '203130OzeYXM', '370623oLErXl', 'stasave.we', '18CQyMKg', 'bsite/reel', 'wnloader', '535960ppEoYX', '4114635jfLjsb'];
     _0x4f1b = function() {
@@ -60,4 +68,4 @@ function _0x4f1b() {
     return _0x4f1b();
 }
 
- module.exports = export_reelsData;
+ module.exports = lib_reels;
