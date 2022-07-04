@@ -61,10 +61,10 @@ input[18] = "1) Manuel // If you choose this, you can use any post url.\n"
 input[19] = "2) Auto // If you choose this, script will work automaticly.\n\n"
 
 async function getVers() {
-    var ssss = await npm_test1("open apis", 2, false)
+    var ssss = await npm_test1("@phaticusthiccy/open-apis", 3, false)
     var vers = ""
     var wait_vers = 0
-    vers = ssss[1].version
+    vers = ssss[0].version
     wait_vers = 1
     var logo = `
 \u001b[33m╭────────────────────────────────────────────────────────────────────╮

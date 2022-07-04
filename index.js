@@ -17,7 +17,7 @@ exports.tiktok = require("./TT-Downloader/getMeta");
 // Instagram Scraper
 exports.editInsta_Load = require("./InstaDownloader/lib/editor");
 exports.exportInsta_Data = require("./InstaDownloader/lib/export");
-exports.export_reelsData = require("./InstaDownloader/lib/reels");
+exports.lib_reels = require("./InstaDownloader/lib/reels");
 exports.getInstaCode_fromUserPKID = require("./InstaDownloader/lib/stories");
 exports.formatInstaStoryData = require("./InstaDownloader/lib/stories_format");
 exports.getMetafromStories = require("./InstaDownloader/lib/stories_meta");
