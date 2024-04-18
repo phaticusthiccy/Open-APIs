@@ -3,6 +3,9 @@
  
 ##
 
+# ⚠ The project is no longer maintaining
+
+
 <img src="https://i.imgur.com/1lc3dZk.gif"/>
     
 This repository stores many open source API tools written by [Me](https://github.com/phaticusthiccy)
